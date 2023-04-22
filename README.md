@@ -4,7 +4,8 @@ An Android application which has various features fixing IMEI problems on Qualco
 ## How to use:
 - Download latest apk file from [releases page](https://github.com/symbuzzer/android-qpst-tool/releases).    
 - Install it on your rooted Android device.  
-- Give it root permission
+- Give it root permission.  
+- For using "Erase EFS" and "Reboot" options, click its button and when it indicates red press and hold same button again.  
 
 ## Features:  
 - Activating QPST (QUALCOMM DIAG) mode with one click.  
