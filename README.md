@@ -17,7 +17,7 @@ An Android application which has various features for fixing IMEI problems on Qu
 
 ## Notes:  
 - Tested on Xiaomi Mi 10T Pro which is Qualcomm Snapdragon 865. Should work other Snapdragon devices too.  
-- ! Use at yout own risk !
+- ! Use at your own risk !
 - Erase EFS feature will erase EFS paritions (/dev/block/sdf8, /dev/block/sdf9, /dev/block/sdf7, /dev/block/sdf10). Since these partitions are device specific, be sure to back them up first.  
   
 ## How to compile:  
