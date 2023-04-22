@@ -3,14 +3,14 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1682134220535</cdate>
 		<name>QPST Tool</name>
-		<scenes>Main,HtmlViewer</scenes>
-		<tids>53,30,54,41,40,34,45,50,44,28,27,33,29,32,43,36,31,48,47,39,46,37,49,35,38,52,51</tids>
+		<scenes>HtmlViewer,Main</scenes>
+		<tids>21,6,29,2,16,19,22,8,3,28,30,14,5,11,27,18,23,7,17,10,9,24,13,20,15,12,4</tids>
 		<Kid sr="Kid">
-			<launchID>28</launchID>
+			<launchID>3</launchID>
 			<pkg>com.avalibeyaz.qpsttool</pkg>
 			<vTarg>22</vTarg>
-			<vnme>1.0.5</vnme>
-			<vnum>43</vnum>
+			<vnme>1.0.6</vnme>
+			<vnum>45</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Download/qualcomm-snapdragon-nexus-7-android-telephone-android-51b3ac5593e257e9617bd9f2b035e777.png</fle>
@@ -38,7 +38,7 @@
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<ButtonElement sr="elements1" ve="3">
-			<clickTask>50</clickTask>
+			<clickTask>24</clickTask>
 			<flags>4</flags>
 			<geom>29,1284,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton1</Str>
@@ -65,16 +65,16 @@
 	</Scene>
 	<Scene sr="sceneMain">
 		<cdate>1682135090682</cdate>
-		<edate>1682176611093</edate>
+		<edate>1682205792533</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>Main</nme>
 		<widthLand>702</widthLand>
 		<widthPort>702</widthPort>
 		<ButtonElement sr="elements0" ve="3">
-			<clickTask>34</clickTask>
+			<clickTask>9</clickTask>
 			<flags>4</flags>
-			<geom>29,74,642,123,-1,-1,-1,-1</geom>
+			<geom>29,98,642,123,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton1</Str>
 			<Str sr="arg1" ve="3">Enable QPST Mode</Str>
 			<Int sr="arg2" val="16"/>
@@ -85,12 +85,12 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements1" ve="3">
-			<clickTask>35</clickTask>
+			<clickTask>10</clickTask>
 			<flags>4</flags>
 			<geom>29,247,642,124,-1,-1,-1,-1</geom>
-			<longclickTask>39</longclickTask>
+			<longclickTask>14</longclickTask>
 			<Str sr="arg0" ve="3">Buton2</Str>
-			<Str sr="arg1" ve="3">Erase EFS</Str>
+			<Str sr="arg1" ve="3">Erase EFS (SD865)</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -99,9 +99,9 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements2" ve="3">
-			<clickTask>37</clickTask>
+			<clickTask>12</clickTask>
 			<flags>4</flags>
-			<geom>29,765,642,124,-1,-1,-1,-1</geom>
+			<geom>29,691,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton3</Str>
 			<Str sr="arg1" ve="3">Check update</Str>
 			<Int sr="arg2" val="16"/>
@@ -112,10 +112,10 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements3" ve="3">
-			<clickTask>36</clickTask>
+			<clickTask>11</clickTask>
 			<flags>4</flags>
 			<geom>29,1284,642,124,-1,-1,-1,-1</geom>
-			<longclickTask>45</longclickTask>
+			<longclickTask>19</longclickTask>
 			<Str sr="arg0" ve="3">Buton4</Str>
 			<Str sr="arg1" ve="3">Exit</Str>
 			<Int sr="arg2" val="16"/>
@@ -126,9 +126,9 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements4" ve="3">
-			<clickTask>44</clickTask>
+			<clickTask>18</clickTask>
 			<flags>4</flags>
-			<geom>29,938,642,124,-1,-1,-1,-1</geom>
+			<geom>29,988,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton6</Str>
 			<Str sr="arg1" ve="3">Source code</Str>
 			<Int sr="arg2" val="16"/>
@@ -139,9 +139,9 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements5" ve="3">
-			<clickTask>47</clickTask>
+			<clickTask>21</clickTask>
 			<flags>4</flags>
-			<geom>29,1111,642,124,-1,-1,-1,-1</geom>
+			<geom>29,1136,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton7</Str>
 			<Str sr="arg1" ve="3">Patreon</Str>
 			<Int sr="arg2" val="16"/>
@@ -152,9 +152,9 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements6" ve="3">
-			<clickTask>49</clickTask>
+			<clickTask>23</clickTask>
 			<flags>4</flags>
-			<geom>29,592,642,124,-1,-1,-1,-1</geom>
+			<geom>29,543,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton8</Str>
 			<Str sr="arg1" ve="3">EFS log</Str>
 			<Int sr="arg2" val="16"/>
@@ -165,12 +165,25 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements7" ve="3">
-			<clickTask>54</clickTask>
+			<clickTask>28</clickTask>
 			<flags>4</flags>
-			<geom>29,419,642,124,-1,-1,-1,-1</geom>
-			<longclickTask>53</longclickTask>
+			<geom>29,395,642,124,-1,-1,-1,-1</geom>
+			<longclickTask>27</longclickTask>
 			<Str sr="arg0" ve="3">Buton5</Str>
 			<Str sr="arg1" ve="3">Reboot</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements8" ve="3">
+			<clickTask>30</clickTask>
+			<flags>4</flags>
+			<geom>29,839,642,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton9</Str>
+			<Str sr="arg1" ve="3">SD865 devices list</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -191,10 +204,269 @@
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
-	<Task sr="task27">
+	<Task sr="task10">
+		<cdate>1682135304057</cdate>
+		<edate>1682135304057</edate>
+		<id>10</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Erase EFS notification</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task11">
+		<cdate>1682135462094</cdate>
+		<edate>1682135462094</edate>
+		<id>11</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Exit</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1682135505113</cdate>
+		<edate>1682135505113</edate>
+		<id>12</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Check update</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task13">
+		<cdate>1682136124539</cdate>
+		<edate>1682206136076</edate>
+		<id>13</id>
+		<nme>Erase EFS notification</nme>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Hold "Erase EFS" button to confirm</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmEraseEfs</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>54</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Buton2</Str>
+			<Str sr="arg2" ve="3">#FFFF0000</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%confirmEraseEfs</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1682136287770</cdate>
+		<edate>1682136287770</edate>
+		<id>14</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Erase EFS</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task15">
+		<cdate>1682136629305</cdate>
+		<edate>1682139423344</edate>
+		<id>15</id>
+		<nme>Reboot</nme>
+		<Action sr="act0" ve="7">
+			<code>59</code>
+			<Int sr="arg0" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%confirmReboot</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task16">
+		<cdate>1682136671857</cdate>
+		<edate>1682175178785</edate>
+		<id>16</id>
+		<nme>Reboot notification</nme>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Hold "Reboot" button to confirm</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmReboot</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>54</code>
+			<Str sr="arg0" ve="3">Main</Str>
+			<Str sr="arg1" ve="3">Buton5</Str>
+			<Str sr="arg2" ve="3">#FFFF0000</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%confirmReboot</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task17">
+		<cdate>1682137106445</cdate>
+		<edate>1682205739894</edate>
+		<id>17</id>
+		<nme>Source code</nme>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%appSourceUrl</Str>
+			<App sr="arg1"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task18">
+		<cdate>1682137124796</cdate>
+		<edate>1682137124796</edate>
+		<id>18</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Source code</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task19">
+		<cdate>1682138349405</cdate>
+		<edate>1682138349405</edate>
+		<id>19</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Easter egg</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
 		<cdate>1682138315241</cdate>
 		<edate>1682161277296</edate>
-		<id>27</id>
+		<id>2</id>
 		<nme>Easter egg</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -217,10 +489,156 @@
 			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
+	<Task sr="task20">
+		<cdate>1682142678120</cdate>
+		<edate>1682205652905</edate>
+		<id>20</id>
+		<nme>Patreon</nme>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">https://avalibeyaz.com/patreon</Str>
+			<App sr="arg1"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task21">
+		<cdate>1682142798381</cdate>
+		<edate>1682142798381</edate>
+		<id>21</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Patreon</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task22">
+		<cdate>1682145385712</cdate>
+		<edate>1682175531545</edate>
+		<id>22</id>
+		<nme>Efs log</nme>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">HtmlViewer</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task23">
+		<cdate>1682145417070</cdate>
+		<edate>1682145417070</edate>
+		<id>23</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Efs log</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task24">
+		<cdate>1682146161234</cdate>
+		<edate>1682146161234</edate>
+		<id>24</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">HtmlViewer</Str>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1682175083322</cdate>
+		<edate>1682175083322</edate>
+		<id>27</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Reboot</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task28">
-		<cdate>1682134269332</cdate>
-		<edate>1682175300659</edate>
+		<cdate>1682175099077</cdate>
+		<edate>1682175099077</edate>
 		<id>28</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Reboot notification</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task29">
+		<cdate>1682205604167</cdate>
+		<edate>1682205733708</edate>
+		<id>29</id>
+		<nme>Device list</nme>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceListUrl</Str>
+			<App sr="arg1"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1682134269332</cdate>
+		<edate>1682205847614</edate>
+		<id>3</id>
 		<nme>Start</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -239,7 +657,7 @@
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appName</Str>
-			<Str sr="arg1" ve="3">QPST Tool</Str>
+			<Str sr="arg1" ve="3">SD865 QPST Tool</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -250,7 +668,7 @@
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appVersion</Str>
-			<Str sr="arg1" ve="3">v1.0.5</Str>
+			<Str sr="arg1" ve="3">v1.0.6</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -315,11 +733,43 @@
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%deviceListUrl</Str>
+			<Str sr="arg1" ve="3">https://phonesdata.com/en/chipset/qualcomm/sm8250-snapdragon-865-(7-nm+)/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
 	</Task>
-	<Task sr="task29">
+	<Task sr="task30">
+		<cdate>1682205779130</cdate>
+		<edate>1682205779130</edate>
+		<id>30</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device list</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task4">
 		<cdate>1682134481806</cdate>
 		<edate>1682175446607</edate>
-		<id>29</id>
+		<id>4</id>
 		<nme>Main</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -391,10 +841,10 @@ Root Erişimi
 			<code>38</code>
 		</Action>
 	</Task>
-	<Task sr="task30">
+	<Task sr="task5">
 		<cdate>1682134777624</cdate>
 		<edate>1682161410629</edate>
-		<id>30</id>
+		<id>5</id>
 		<nme>Enable QPST Mode</nme>
 		<Action sr="act0" ve="7">
 			<code>123</code>
@@ -446,10 +896,10 @@ Root Erişimi
 			<Str sr="arg4" ve="3"/>
 		</Action>
 	</Task>
-	<Task sr="task31">
+	<Task sr="task6">
 		<cdate>1682134818371</cdate>
-		<edate>1682175568783</edate>
-		<id>31</id>
+		<edate>1682205215620</edate>
+		<id>6</id>
 		<nme>Erase EFS</nme>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -607,11 +1057,11 @@ sdf10:
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task32">
+	<Task sr="task7">
 		<cdate>1682134830260</cdate>
-		<edate>1682147599143</edate>
-		<id>32</id>
-		<nme>Check Update</nme>
+		<edate>1682205746581</edate>
+		<id>7</id>
+		<nme>Check update</nme>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Installed version is: %appVersion</Str>
@@ -639,10 +1089,10 @@ sdf10:
 			<Str sr="arg3" ve="3"/>
 		</Action>
 	</Task>
-	<Task sr="task33">
+	<Task sr="task8">
 		<cdate>1682135052020</cdate>
 		<edate>1682152160835</edate>
-		<id>33</id>
+		<id>8</id>
 		<nme>Exit</nme>
 		<Action sr="act0" ve="7">
 			<code>49</code>
@@ -654,500 +1104,14 @@ sdf10:
 			<Str sr="arg1" ve="3">Main</Str>
 		</Action>
 	</Task>
-	<Task sr="task34">
+	<Task sr="task9">
 		<cdate>1682135187186</cdate>
 		<edate>1682135187186</edate>
-		<id>34</id>
+		<id>9</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Enable QPST Mode</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task35">
-		<cdate>1682135304057</cdate>
-		<edate>1682135304057</edate>
-		<id>35</id>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Erase EFS notification</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task36">
-		<cdate>1682135462094</cdate>
-		<edate>1682135462094</edate>
-		<id>36</id>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Exit</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task37">
-		<cdate>1682135505113</cdate>
-		<edate>1682135505113</edate>
-		<id>37</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Check Update</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task38">
-		<cdate>1682136124539</cdate>
-		<edate>1682175184775</edate>
-		<id>38</id>
-		<nme>Erase EFS notification</nme>
-		<Action sr="act0" ve="7">
-			<code>548</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Hold "Erase EFS" button to confirm</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmEraseEfs</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>54</code>
-			<Str sr="arg0" ve="3">Main</Str>
-			<Str sr="arg1" ve="3">Buton2</Str>
-			<Str sr="arg2" ve="3">#FFFF0000</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%confirmEraseEfs</lhs>
-					<op>0</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task39">
-		<cdate>1682136287770</cdate>
-		<edate>1682136287770</edate>
-		<id>39</id>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Erase EFS</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task40">
-		<cdate>1682136629305</cdate>
-		<edate>1682139423344</edate>
-		<id>40</id>
-		<nme>Reboot</nme>
-		<Action sr="act0" ve="7">
-			<code>59</code>
-			<Int sr="arg0" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%confirmReboot</lhs>
-					<op>0</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task41">
-		<cdate>1682136671857</cdate>
-		<edate>1682175178785</edate>
-		<id>41</id>
-		<nme>Reboot notification</nme>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Hold "Reboot" button to confirm</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmReboot</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>54</code>
-			<Str sr="arg0" ve="3">Main</Str>
-			<Str sr="arg1" ve="3">Buton5</Str>
-			<Str sr="arg2" ve="3">#FFFF0000</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%confirmReboot</lhs>
-					<op>0</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task43">
-		<cdate>1682137106445</cdate>
-		<edate>1682137260115</edate>
-		<id>43</id>
-		<nme>Source code</nme>
-		<Action sr="act0" ve="7">
-			<code>104</code>
-			<Str sr="arg0" ve="3">%appSourceUrl</Str>
-			<App sr="arg1"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-		</Action>
-	</Task>
-	<Task sr="task44">
-		<cdate>1682137124796</cdate>
-		<edate>1682137124796</edate>
-		<id>44</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Source code</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task45">
-		<cdate>1682138349405</cdate>
-		<edate>1682138349405</edate>
-		<id>45</id>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Easter egg</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task46">
-		<cdate>1682142678120</cdate>
-		<edate>1682157632802</edate>
-		<id>46</id>
-		<nme>Patreon</nme>
-		<Action sr="act0" ve="7">
-			<code>104</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">https://avalibeyaz.com/patreon</Str>
-			<App sr="arg1"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-		</Action>
-	</Task>
-	<Task sr="task47">
-		<cdate>1682142798381</cdate>
-		<edate>1682142798381</edate>
-		<id>47</id>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Patreon</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task48">
-		<cdate>1682145385712</cdate>
-		<edate>1682175531545</edate>
-		<id>48</id>
-		<nme>Efs log</nme>
-		<Action sr="act0" ve="7">
-			<code>47</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">HtmlViewer</Str>
-			<Int sr="arg1" val="6"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task49">
-		<cdate>1682145417070</cdate>
-		<edate>1682145417070</edate>
-		<id>49</id>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Efs log</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task50">
-		<cdate>1682146161234</cdate>
-		<edate>1682146161234</edate>
-		<id>50</id>
-		<pri>4</pri>
-		<Action sr="act0" ve="7">
-			<code>49</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">HtmlViewer</Str>
-		</Action>
-	</Task>
-	<Task sr="task51">
-		<cdate>1682136671857</cdate>
-		<edate>1682175169609</edate>
-		<id>51</id>
-		<nme>Reboot notification2</nme>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Hold "Reboot" button to confirm</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmReboot</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>54</code>
-			<Str sr="arg0" ve="3">Main</Str>
-			<Str sr="arg1" ve="3">Buton5</Str>
-			<Str sr="arg2" ve="3">#FFFF0000</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%confirmReboot</lhs>
-					<op>0</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task52">
-		<cdate>1682136124539</cdate>
-		<edate>1682154991828</edate>
-		<id>52</id>
-		<nme>Erase EFS notification2</nme>
-		<Action sr="act0" ve="7">
-			<code>548</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Hold "Erase EFS" button to confirm</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmEraseEfs</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>54</code>
-			<Str sr="arg0" ve="3">Main</Str>
-			<Str sr="arg1" ve="3">Buton2</Str>
-			<Str sr="arg2" ve="3">#FFFF0000</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%confirmEraseEfs</lhs>
-					<op>0</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task53">
-		<cdate>1682175083322</cdate>
-		<edate>1682175083322</edate>
-		<id>53</id>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Reboot</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task54">
-		<cdate>1682175099077</cdate>
-		<edate>1682175099077</edate>
-		<id>54</id>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Reboot notification</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
