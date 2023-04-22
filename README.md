@@ -21,7 +21,7 @@ An Android application which has various features fixing IMEI problems on Qualco
 - Erase EFS feature will erase EFS paritions (/dev/block/sdf8, /dev/block/sdf9, /dev/block/sdf7, /dev/block/sdf10). Since these partitions are device specific, be sure to back them up first.  
   
 ## How to compile:  
-- This app ise created with Tasker (v6.1.3-beta) and Tasker App Factory (v6.1.3-beta). So download and install them or theri newer builds on your device.  
+- This app is created with Tasker (v6.1.3-beta) and Tasker App Factory (v6.1.3-beta). So download and install them or theri newer builds on your device.  
 - Download QPST_Tool.prj.xml and import it as project from Tasker Android App.  
 - Set app icon on profile options, Main and HtmlViewer scenes.  
 - Set "start task: Start", "min android version: 21" and "target android version: 22" (Should be max 22 because of Tasker App Factory's damn notification problems)  
