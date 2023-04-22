@@ -1,5 +1,5 @@
 # Android QPST Tool [ROOT]  
-An Android application which has various features fixing IMEI problems on Qualcomm Snapdragon devices  
+An Android application which has various features for fixing IMEI problems on Qualcomm Snapdragon devices  
   
 [Türkçe Google Translate çevirisi](https://github-com.translate.goog/symbuzzer/android-qpst-tool/blob/main/README.md?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=wapp)  
   
