@@ -9,7 +9,7 @@ An Android application which has various features fixing IMEI problems on Qualco
 ## Features:  
 - Activating QPST (QUALCOMM DIAG) mode with one click.  
 - Erasing EFS paritions (/dev/block/sdf8, /dev/block/sdf9, /dev/block/sdf7, /dev/block/sdf10) with one click.  
-- Rebooting with one click
+- Rebooting with one click.
 - Eye-candy design
 
 ## Notes:  
