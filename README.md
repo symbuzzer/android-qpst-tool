@@ -22,5 +22,8 @@ An Android application which has various features fixing IMEI problems on Qualco
 - Download QPST_Tool.prj.xml and import it as project from Tasker Android App.  
 - When importing complete, you can export as standalone app.  
   
+## Changelog:  
+- See [CHANGELOG.md](https://github.com/symbuzzer/android-qpst-tool/blob/main/CHANGELOG.md)
+  
 ## Screenshots:
 ![](https://github.com/symbuzzer/android-qpst-tool/blob/main/screenshot1.jpg?raw=true)
