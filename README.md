@@ -20,6 +20,7 @@ An Android application which has various features fixing IMEI problems on Qualco
 ## How to compile:  
 - This app ise created with Tasker (v6.1.3-beta) and Tasker App Factory (v6.1.3-beta). So download and install them or theri newer builds on your device.  
 - Download QPST_Tool.prj.xml and import it as project from Tasker Android App.  
+- Set "start task: Start", "min android version: 21" and "target android version: 22"  
 - When importing complete, you can export as standalone app.  
   
 ## Changelog:  
