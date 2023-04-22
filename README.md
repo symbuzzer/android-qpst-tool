@@ -19,7 +19,6 @@ An Android application which has various features for fixing baseband etc. probl
 - Tested on Xiaomi Mi 10T Pro which is Qualcomm Snapdragon 865. Should work other Snapdragon 865 devices too.  
 - ! Use at your own risk !
 - Erase EFS feature will erase EFS paritions (/dev/block/sdf8, /dev/block/sdf9, /dev/block/sdf7, /dev/block/sdf10). Since these partitions are device specific, be sure to back them up first.  
-- EFS partitions may be different at other devices. Be carefull please!  
   
 ## How to compile:  
 - This app is created with Tasker (v6.1.3-beta) and Tasker App Factory (v6.1.3-beta). So download and install them or their newer builds on your device.  
