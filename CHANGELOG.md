@@ -1,3 +1,7 @@
+## v1.0.6  
+- Added SD865 warnings on several interface elements for idiots  
+- Need uninstall old version first
+  
 ## v1.0.5  
 - Fixed bugs  
 - Need uninstall old version first
