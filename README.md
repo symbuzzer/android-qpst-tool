@@ -1,36 +1,33 @@
-# Rootlu Qualcomm Snapdragon 865 cihazlar için QPST Tool  
+# ROOTlu Qualcomm Snapdragon 865 cihazlar için QPST Tool  
 Qualcomm Snapdragon 865 cihazlar için ba(ğ)zı gizli özellikleri çalıştırma aracı. Bence bir ekran görüntüsüne bakın aşağıdan :)    
+  
+## Nasıl kullanırım:
+- Ne işe yaradığını bilmiyorsanız lütfen ama lütfen indirmeyin! Cihazınıza kalıcı zararlar verebilir.
+- En güncel APK dosyasını [Releases](https://github.com/symbuzzer/android-qpst-tool/releases) sayfasından indirip rootlu cihazınıza kurun.  
+- Uygulamayı çalıştırıp ROOT yetkisi verin. Uygulamanın diğer izinlerine ellemeyin ya da elleyin siz bilirsiniz.
+- "EFS'yi  sil" ve "Yeniden başlat" seçeneklerini kullanabilmek için önce bir kere basmanız, kırmızı olunca da basılı kalmanız gerekmektedir. Bastıktan 5 saniye sonra hiç bir şey yapmazsanız butonlar tekrar kırmızıdan beyaza döner.    
 
-Last English version is 1.0.6
-  
-[Türkçe Google Translate çevirisi](https://github-com.translate.goog/symbuzzer/android-qpst-tool/blob/main/README.md?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=wapp)  
-  
-## How to use:
-- Download latest apk file from [releases page](https://github.com/symbuzzer/android-qpst-tool/releases).    
-- Install it on your rooted Android device.  
-- Give it root permission.  
-- For using "Erase EFS" and "Reboot" options, click its button and when it indicates red press and hold same button again.  
+## Özellikleri:  
+- QPST (QUALCOMM DIAG) modunu ve ADB ile geliştirici seçeneklerini tek tuşla aktifleştirme    
+- Bozuk EFS bölümlerini tek tuşla silme (/dev/block/sdf8, /dev/block/sdf9, /dev/block/sdf7, /dev/block/sdf10)   
+- Tek tuşla cihazı yeniden başlatma
+- Tamamen ücretsiz, reklamsız, sade ve hafif bir uygulama
+- Otomatik güncelleme özelliği (İndirme ve Yüklemeyi manuel yapmanız gerekmektedir.)
 
-## Features:  
-- Activating QPST (QUALCOMM DIAG) mode with one click.  
-- Erasing problematic EFS paritions (/dev/block/sdf8, /dev/block/sdf9, /dev/block/sdf7, /dev/block/sdf10) with one click.  
-- Rebooting with one click.
-- Eye-candy design
-
-## Notes:  
-- Tested on Xiaomi Mi 10T Pro which is Qualcomm Snapdragon 865. Should work other Snapdragon 865 devices too.  
-- ! Use at your own risk !
-- Erase EFS feature will erase EFS paritions (/dev/block/sdf8, /dev/block/sdf9, /dev/block/sdf7, /dev/block/sdf10). Since these partitions are device specific, be sure to back them up first.  
+## Notlar:  
+- Xiaomi Mi 10T Pro da tarafımca denenmiştir. Diğer Snapdragon 865 cihazlarda da çalışması olasıdır.  
+- ! Kullanımdan kaynaklı bütün risk size aittir. Ne işe yaradığını ve ne yaptığını bilmiyorsanız lütfen kullanmayın !  
+- EFS'yi sil seçeneği /dev/block/sdf8, /dev/block/sdf9, /dev/block/sdf7, /dev/block/sdf10) bölümlerini tamamen sileceğinden, lütfen bunların yedeğini aldığınıza emin olun.  
   
-## How to compile:  
-- This app is created with Tasker (v6.1.3-beta) and Tasker App Factory (v6.1.3-beta). So download and install them or their newer builds on your device.  
-- Download QPST_Tool.prj.xml and import it as project from Tasker Android App.  
-- Set app icon on profile options, Main and HtmlViewer scenes.  
-- Set "start task: Start", "min android version: 21" and "target android version: 22" (Should be max 22 because of Tasker App Factory's damn notification problems)  
-- Finally you can export as standalone app.  
+## Nasıl derlerim:  
+- Bu uygulama Tasker (v6.1.3-beta) ve Tasker App Factory (v6.1.3-beta) ile geliştirilmiştir.  
+- Bu uygulamaların en aşağı yukarıdaki versiyonlarını indirip cihazınıza kurmanız gerekmektedir.    
+- QPST_Tool.prj.xml indirin ve Tasker uygulaması içerisinden proje olarak içe aktarın.  
+- Profil seçeneklerinden, Main and HtmlViewer sahnelerinden uygulama ikonu ayarlayın. İsterseniz icon.jpg'yi kullanabilirsiniz.  
+- Uygulama olarak dışa aktarırken "Başlangıç görevi: Start", "min android version: 21" and "target android version: 29" olarak ayarlamanız gerekmektedir.
   
-## Changelog:  
-- See [CHANGELOG.md](https://github.com/symbuzzer/android-qpst-tool/blob/main/CHANGELOG.md)
+## Değişiklik listesi:  
+- Şuraya bir bakın: [CHANGELOG.md](https://github.com/symbuzzer/android-qpst-tool/blob/main/CHANGELOG.md)
   
-## Screenshots:
+## Ekran görüntüleri:
 ![](https://github.com/symbuzzer/android-qpst-tool/blob/main/screenshot1.jpg?raw=true)
