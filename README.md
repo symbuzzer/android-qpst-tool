@@ -1,4 +1,4 @@
-# ROOTlu Qualcomm Snapdragon 865 cihazlar için QPST Tool  
+# ROOT'lu Qualcomm Snapdragon 865 cihazlar için QPST Tool  
 Qualcomm Snapdragon 865 cihazlar için ba(ğ)zı gizli özellikleri çalıştırma aracı. Bence bir ekran görüntüsüne bakın aşağıdan :)    
   
 ## Nasıl kullanırım:
