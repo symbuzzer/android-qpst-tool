@@ -23,7 +23,7 @@ Qualcomm Snapdragon 865 cihazlar için ba(ğ)zı gizli özellikleri çalıştır
 - Bu uygulama Tasker (v6.1.3-beta) ve Tasker App Factory (v6.1.3-beta) ile geliştirilmiştir.  
 - Bu uygulamaların en aşağı yukarıdaki versiyonlarını indirip cihazınıza kurmanız gerekmektedir.    
 - QPST_Tool.prj.xml indirin ve Tasker uygulaması içerisinden proje olarak içe aktarın.  
-- Profil seçeneklerinden, Main and HtmlViewer sahnelerinden uygulama ikonu ayarlayın. İsterseniz icon.jpg'yi kullanabilirsiniz.  
+- Profil seçeneklerinden, Main and HtmlViewer sahnelerinden uygulama ikonu ayarlayın. İsterseniz icon.png'yi kullanabilirsiniz.  
 - Uygulama olarak dışa aktarırken "Başlangıç görevi: Start", "min android version: 21" and "target android version: 29" olarak ayarlamanız gerekmektedir.
   
 ## Değişiklik listesi:  
