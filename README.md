@@ -1,5 +1,5 @@
-# Android QPST Tool for Qualcomm Snapdragon 865 devices [Only Turkish / ROOT]  
-An Android application which has various features for fixing baseband problems on Qualcomm Snapdragon 865 devices.  
+# Rootlu Qualcomm Snapdragon 865 cihazlar için QPST Tool  
+Qualcomm Snapdragon 865 cihazlar için ba(ğ)zı gizli özellikleri çalıştırma aracı. Bence bir ekran görüntüsüne bakın aşağıdan :)    
 
 Last English version is 1.0.6
   
