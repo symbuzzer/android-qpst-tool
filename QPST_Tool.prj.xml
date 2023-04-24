@@ -47,23 +47,23 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1682134220535</cdate>
 		<name>QPST Tool</name>
-		<pids>43,42,41</pids>
-		<scenes>Main,HtmlViewer</scenes>
-		<tids>25,29,19,12,21,24,32,28,13,10,26,45,33,23,17,6,3,11,27,30,20,16,2,14,40,37,46,36,4,31,34,22,8,35,38,15,44,7,39,5,9</tids>
+		<pids>41,42,43</pids>
+		<scenes>HtmlViewer,Main</scenes>
+		<tids>27,6,10,5,34,11,15,26,31,17,25,12,13,2,30,24,37,28,21,46,16,3,36,22,32,35,14,45,20,33,23,4,8,7,44,19,38,39,9,40</tids>
 		<Kid sr="Kid">
 			<launchID>9</launchID>
 			<pkg>com.avalibeyaz.qpsttool</pkg>
 			<vTarg>29</vTarg>
 			<vnme>1.1.1</vnme>
-			<vnum>107</vnum>
+			<vnum>108</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
-			<fle>/storage/emulated/0/Download/qualcomm-snapdragon-nexus-7-android-telephone-android-51b3ac5593e257e9617bd9f2b035e777.png</fle>
+			<fle>/storage/emulated/0/Pictures/Telegram/IMG_20230425_013653_247.jpg</fle>
 		</Img>
 	</Project>
 	<Scene sr="sceneHtmlViewer">
 		<cdate>1682145782310</cdate>
-		<edate>1682372940449</edate>
+		<edate>1682375735268</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>HtmlViewer</nme>
@@ -71,7 +71,7 @@
 		<widthPort>702</widthPort>
 		<TextElement sr="elements0" ve="3">
 			<flags>4</flags>
-			<geom>29,0,642,1333,-1,-1,-1,-1</geom>
+			<geom>29,0,642,1284,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Metin1</Str>
 			<Str sr="arg1" ve="3">%htmlContent</Str>
 			<Int sr="arg2" val="12"/>
@@ -85,7 +85,7 @@
 		<ButtonElement sr="elements1" ve="3">
 			<clickTask>30</clickTask>
 			<flags>4</flags>
-			<geom>29,1358,642,124,-1,-1,-1,-1</geom>
+			<geom>29,1284,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton1</Str>
 			<Str sr="arg1" ve="3">Kapat</Str>
 			<Int sr="arg2" val="16"/>
@@ -110,7 +110,7 @@
 	</Scene>
 	<Scene sr="sceneMain">
 		<cdate>1682135090682</cdate>
-		<edate>1682373161309</edate>
+		<edate>1682375716455</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>Main</nme>
@@ -119,7 +119,7 @@
 		<ButtonElement sr="elements0" ve="3">
 			<clickTask>15</clickTask>
 			<flags>4</flags>
-			<geom>29,24,642,123,-1,-1,-1,-1</geom>
+			<geom>29,98,642,123,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton1</Str>
 			<Str sr="arg1" ve="3">QPST Modunu aç</Str>
 			<Int sr="arg2" val="16"/>
@@ -132,7 +132,7 @@
 		<ButtonElement sr="elements1" ve="3">
 			<clickTask>16</clickTask>
 			<flags>4</flags>
-			<geom>29,172,642,124,-1,-1,-1,-1</geom>
+			<geom>29,247,642,124,-1,-1,-1,-1</geom>
 			<longclickTask>20</longclickTask>
 			<Str sr="arg0" ve="3">Buton2</Str>
 			<Str sr="arg1" ve="3">EFS'yi sil (SD865)</Str>
@@ -146,7 +146,7 @@
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>17</clickTask>
 			<flags>4</flags>
-			<geom>29,1358,642,124,-1,-1,-1,-1</geom>
+			<geom>29,1284,642,124,-1,-1,-1,-1</geom>
 			<longclickTask>25</longclickTask>
 			<Str sr="arg0" ve="3">Buton4</Str>
 			<Str sr="arg1" ve="3">Çıkış</Str>
@@ -160,7 +160,7 @@
 		<ButtonElement sr="elements3" ve="3">
 			<clickTask>24</clickTask>
 			<flags>4</flags>
-			<geom>29,913,642,124,-1,-1,-1,-1</geom>
+			<geom>29,839,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton6</Str>
 			<Str sr="arg1" ve="3">Github</Str>
 			<Int sr="arg2" val="16"/>
@@ -173,7 +173,7 @@
 		<ButtonElement sr="elements4" ve="3">
 			<clickTask>27</clickTask>
 			<flags>4</flags>
-			<geom>29,1210,642,124,-1,-1,-1,-1</geom>
+			<geom>29,1136,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton7</Str>
 			<Str sr="arg1" ve="3">Patreon (Bağış)</Str>
 			<Int sr="arg2" val="16"/>
@@ -184,22 +184,9 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements5" ve="3">
-			<clickTask>29</clickTask>
-			<flags>4</flags>
-			<geom>29,617,642,124,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Buton8</Str>
-			<Str sr="arg1" ve="3">EFS LOG'u</Str>
-			<Int sr="arg2" val="16"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="0"/>
-			<Img sr="arg7" ve="2"/>
-		</ButtonElement>
-		<ButtonElement sr="elements6" ve="3">
 			<clickTask>32</clickTask>
 			<flags>4</flags>
-			<geom>29,469,642,124,-1,-1,-1,-1</geom>
+			<geom>29,543,642,124,-1,-1,-1,-1</geom>
 			<longclickTask>31</longclickTask>
 			<Str sr="arg0" ve="3">Buton5</Str>
 			<Str sr="arg1" ve="3">Yeniden başlat</Str>
@@ -210,10 +197,10 @@
 			<Int sr="arg6" val="0"/>
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
-		<ButtonElement sr="elements7" ve="3">
+		<ButtonElement sr="elements6" ve="3">
 			<clickTask>34</clickTask>
 			<flags>4</flags>
-			<geom>29,765,642,124,-1,-1,-1,-1</geom>
+			<geom>29,691,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton9</Str>
 			<Str sr="arg1" ve="3">SD865 cihazlar</Str>
 			<Int sr="arg2" val="16"/>
@@ -223,10 +210,10 @@
 			<Int sr="arg6" val="0"/>
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
-		<ButtonElement sr="elements8" ve="3">
+		<ButtonElement sr="elements7" ve="3">
 			<clickTask>6</clickTask>
 			<flags>4</flags>
-			<geom>29,321,642,124,-1,-1,-1,-1</geom>
+			<geom>29,395,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton10</Str>
 			<Str sr="arg1" ve="3">ADB'yi aç</Str>
 			<Int sr="arg2" val="16"/>
@@ -236,10 +223,10 @@
 			<Int sr="arg6" val="0"/>
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
-		<ButtonElement sr="elements9" ve="3">
+		<ButtonElement sr="elements8" ve="3">
 			<clickTask>46</clickTask>
 			<flags>4</flags>
-			<geom>29,1062,642,124,-1,-1,-1,-1</geom>
+			<geom>29,988,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton11</Str>
 			<Str sr="arg1" ve="3">Hakkında</Str>
 			<Int sr="arg2" val="16"/>
@@ -437,7 +424,7 @@ Root Erişimi
 	</Task>
 	<Task sr="task12">
 		<cdate>1682134818371</cdate>
-		<edate>1682341620817</edate>
+		<edate>1682375684408</edate>
 		<id>12</id>
 		<nme>Erase EFS</nme>
 		<Action sr="act0" ve="7">
@@ -1170,7 +1157,7 @@ sdf10:
 	</Task>
 	<Task sr="task28">
 		<cdate>1682145385712</cdate>
-		<edate>1682370830529</edate>
+		<edate>1682375689641</edate>
 		<id>28</id>
 		<nme>EFS LOG</nme>
 		<Action sr="act0" ve="7">
@@ -1187,28 +1174,6 @@ sdf10:
 			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task29">
-		<cdate>1682145417070</cdate>
-		<edate>1682145417070</edate>
-		<id>29</id>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">EFS LOG</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task3">
@@ -1955,7 +1920,7 @@ Dinleyiciler: %PENABLED</Str>
 	</Task>
 	<Task sr="task9">
 		<cdate>1682134269332</cdate>
-		<edate>1682373486073</edate>
+		<edate>1682375762219</edate>
 		<id>9</id>
 		<nme>Start</nme>
 		<pri>100</pri>
@@ -2028,7 +1993,7 @@ Dinleyiciler: %PENABLED</Str>
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appVersion</Str>
-			<Str sr="arg1" ve="3">v1.1.1</Str>
+			<Str sr="arg1" ve="3">v1.1.2</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2039,7 +2004,7 @@ Dinleyiciler: %PENABLED</Str>
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appLongVersion</Str>
-			<Str sr="arg1" ve="3">111</Str>
+			<Str sr="arg1" ve="3">112</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
