@@ -1,4 +1,4 @@
-## v1.0.7  
+## v1.1.0  
 - Translated to Turkish language. Turkish is only language fo now  
 - Added share logs via E-Mail and Telegram  
 - Need uninstall old version first  
