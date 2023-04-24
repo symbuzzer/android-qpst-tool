@@ -47,18 +47,18 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1682134220535</cdate>
 		<name>QPST Tool</name>
-		<pids>42,43,41</pids>
+		<pids>41,43,42</pids>
 		<scenes>HtmlViewer,Main</scenes>
-		<tids>28,22,30,4,46,2,20,15,32,37,13,33,34,11,8,25,21,45,10,27,35,17,36,31,16,19,14,12,26,24,7,23,6,39,38,44,3,40,5,9</tids>
+		<tids>27,22,31,25,16,28,36,4,3,12,14,8,21,33,10,2,11,35,13,30,24,32,20,17,7,37,40,9,6,26,45,23,46,38,19,34,15,5,39,44</tids>
 		<Kid sr="Kid">
 			<launchID>9</launchID>
-			<pkg>com.avalibeyaz.qpsttool112</pkg>
+			<pkg>com.avalibeyaz.qpsttool114</pkg>
 			<vTarg>29</vTarg>
-			<vnme>1.1.2</vnme>
-			<vnum>109</vnum>
+			<vnme>1.1.4</vnme>
+			<vnum>111</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
-			<fle>/storage/emulated/0/Download/png-transparent-qualcomm-snapdragon-nexus-7-android-telephone-android-trademark-logo-mobile-phones-thumbnail.png</fle>
+			<fle>/storage/emulated/0/Download/pngwing.com.png</fle>
 		</Img>
 	</Project>
 	<Scene sr="sceneHtmlViewer">
@@ -1920,7 +1920,7 @@ Dinleyiciler: %PENABLED</Str>
 	</Task>
 	<Task sr="task9">
 		<cdate>1682134269332</cdate>
-		<edate>1682376258975</edate>
+		<edate>1682376775945</edate>
 		<id>9</id>
 		<nme>Start</nme>
 		<pri>100</pri>
@@ -1993,7 +1993,7 @@ Dinleyiciler: %PENABLED</Str>
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appVersion</Str>
-			<Str sr="arg1" ve="3">v1.1.3</Str>
+			<Str sr="arg1" ve="3">v1.1.4</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2004,7 +2004,7 @@ Dinleyiciler: %PENABLED</Str>
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appLongVersion</Str>
-			<Str sr="arg1" ve="3">113</Str>
+			<Str sr="arg1" ve="3">114</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
