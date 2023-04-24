@@ -3,7 +3,7 @@ Qualcomm Snapdragon 865 cihazlar için ba(ğ)zı gizli özellikleri çalıştır
   
 ## Nasıl kullanırım:
 - Ne işe yaradığını bilmiyorsanız lütfen ama lütfen indirmeyin! Cihazınıza kalıcı zararlar verebilir.
-- En güncel APK dosyasını [Releases](https://github.com/symbuzzer/android-qpst-tool/releases) sayfasından indirip rootlu cihazınıza kurun.  
+- qpsttool.apk dosyasını indirip rootlu cihazınıza kurun.  
 - Uygulamayı çalıştırıp ROOT yetkisi verin. Uygulamanın diğer izinlerine ellemeyin ya da elleyin siz bilirsiniz.
 - "EFS'yi  sil" ve "Yeniden başlat" seçeneklerini kullanabilmek için önce bir kere basmanız, kırmızı olunca da basılı kalmanız gerekmektedir. Bastıktan 5 saniye sonra hiç bir şey yapmazsanız butonlar tekrar kırmızıdan beyaza döner.    
 
