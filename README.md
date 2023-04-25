@@ -26,8 +26,5 @@ Qualcomm Snapdragon 865 cihazlar için ba(ğ)zı gizli özellikleri çalıştır
 - Profil seçeneklerinden, Main and HtmlViewer sahnelerinden uygulama ikonu ayarlayın. İsterseniz icon.png'yi kullanabilirsiniz.  
 - Uygulama olarak dışa aktarırken "Başlangıç görevi: Start", "min android version: 21" and "target android version: 29" olarak ayarlamanız gerekmektedir.
   
-## Değişiklik listesi:  
-- Şuraya bir bakın: [CHANGELOG.md](https://github.com/symbuzzer/android-qpst-tool/blob/main/CHANGELOG.md)
-  
 ## Ekran görüntüleri:
 ![](https://github.com/symbuzzer/android-qpst-tool/blob/main/screenshot1.jpg?raw=true)
