@@ -1,5 +1,5 @@
 # ROOT'lu Qualcomm Snapdragon cihazlar için QPST Tool  
-Qualcomm Snapdragon cihazlar için ba(ğ)zı gizli özellikleri çalıştırma aracı. Bence bir ekran görüntüsüne bakın aşağıdan :)    
+Qualcomm Snapdragon cihazlar için şebeke sorunlarının çözümü için gerekli kısa yolları içerir ücretsiz, reklamsız ve açık kaynak Android uygulaması...    
   
 ## Nasıl kullanırım:
 - Ne işe yaradığını bilmiyorsanız lütfen ama lütfen indirmeyin! Cihazınıza kalıcı zararlar verebilir.
