@@ -17,16 +17,16 @@
 		<cdate>1682134220535</cdate>
 		<name>QPST Tool</name>
 		<pids>15</pids>
-		<scenes>DebugMenu,Confirm,Splash,HtmlViewer,HtmlViewerWoutButton,Main,SelectDevice</scenes>
-		<tids>72,11,5,9,111,77,114,84,110,71,70,83,78,13,102,63,96,98,6,97,3,89,99,94,106,4,80,7,101,2,16,79,85,75,82,74,10,81,12,8,76,62,68,95,66,88,113,73,14,69</tids>
+		<scenes>HtmlViewerWoutButton,Splash,SelectDevice2,SelectDevice,HtmlViewer,DebugMenu,Main,Confirm</scenes>
+		<tids>106,114,8,24,13,72,98,99,4,84,88,25,71,28,111,62,110,77,74,26,14,21,6,96,18,97,23,66,17,83,75,113,19,12,9,44,27,94,22,7,81,5,89,45,3,79,78,68,82,11,69,29,102,70,30,76,95,101,20,16,73,63,80,2,85</tids>
 		<tsort>AgeOldestFirst</tsort>
 		<Kid sr="Kid">
 			<launchID>69</launchID>
 			<pkg>com.symbuzzer.qpsttool</pkg>
 			<vMin>26</vMin>
 			<vTarg>29</vTarg>
-			<vnme>2.0.4</vnme>
-			<vnum>329</vnum>
+			<vnme>2.1.0</vnme>
+			<vnum>332</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Download/icon.png</fle>
@@ -34,7 +34,7 @@
 	</Project>
 	<Scene sr="sceneConfirm">
 		<cdate>1682592156421</cdate>
-		<edate>1683355069443</edate>
+		<edate>1683382178695</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>Confirm</nme>
@@ -449,7 +449,7 @@
 	</Scene>
 	<Scene sr="sceneMain">
 		<cdate>1682135090682</cdate>
-		<edate>1683358586362</edate>
+		<edate>1683381367645</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>Main</nme>
@@ -639,10 +639,300 @@
 	</Scene>
 	<Scene sr="sceneSelectDevice">
 		<cdate>1683063033134</cdate>
-		<edate>1683358732921</edate>
+		<edate>1683389816126</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>SelectDevice</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>702</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,0,701,123,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle111</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%labelColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>153,0,544,123,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text111111</Str>
+			<Str sr="arg1" ve="3">%appTitle
+%appDeveloper</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements10" ve="3">
+			<clickTask>20</clickTask>
+			<flags>4</flags>
+			<geom>351,419,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button53</Str>
+			<Str sr="arg1" ve="3">Redmi K30 Pro</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements11" ve="3">
+			<clickTask>21</clickTask>
+			<flags>4</flags>
+			<geom>29,543,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button54</Str>
+			<Str sr="arg1" ve="3">Redmi K30 Pro Zoom</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements12" ve="3">
+			<clickTask>22</clickTask>
+			<flags>4</flags>
+			<geom>351,543,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button55</Str>
+			<Str sr="arg1" ve="3">Poco F2 Pro</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements13" ve="3">
+			<clickTask>23</clickTask>
+			<flags>4</flags>
+			<geom>29,666,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button6</Str>
+			<Str sr="arg1" ve="3">Mi 9T</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements14" ve="3">
+			<clickTask>24</clickTask>
+			<flags>4</flags>
+			<geom>351,666,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button61</Str>
+			<Str sr="arg1" ve="3">Mi 9T Pro</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements15" ve="3">
+			<clickTask>25</clickTask>
+			<flags>4</flags>
+			<geom>29,790,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button62</Str>
+			<Str sr="arg1" ve="3">Mi Note 10</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements16" ve="3">
+			<clickTask>26</clickTask>
+			<flags>4</flags>
+			<geom>351,790,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button63</Str>
+			<Str sr="arg1" ve="3">Mi Note 10 Pro</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements17" ve="3">
+			<clickTask>27</clickTask>
+			<flags>4</flags>
+			<geom>29,913,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button64</Str>
+			<Str sr="arg1" ve="3">Redmi Note 10 Pro</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements18" ve="3">
+			<clickTask>28</clickTask>
+			<flags>4</flags>
+			<geom>351,913,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button65</Str>
+			<Str sr="arg1" ve="3">Redmi Note 10 Pro Max</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements19" ve="3">
+			<clickTask>29</clickTask>
+			<geom>29,1210,642,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton221</Str>
+			<Str sr="arg1" ve="3">Diğer cihazlar...</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ImageElement sr="elements2" ve="2">
+			<flags>4</flags>
+			<geom>29,0,123,123,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Image111</Str>
+			<Img sr="arg1" ve="2">
+				<fle>/storage/emulated/0/Download/icon.png</fle>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<ButtonElement sr="elements20" ve="3">
+			<clickTask>3</clickTask>
+			<flags>4</flags>
+			<geom>351,1037,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button66</Str>
+			<Str sr="arg1" ve="3">Redmi Note 9 Pro</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>0,0,696,123,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle211</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>5</clickTask>
+			<flags>4</flags>
+			<geom>29,1333,642,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton22</Str>
+			<Str sr="arg1" ve="3">Kapat</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>0,148,701,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Metin11</Str>
+			<Str sr="arg1" ve="3">%deviceSelectedProcess</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>16</clickTask>
+			<flags>4</flags>
+			<geom>29,1037,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton7</Str>
+			<Str sr="arg1" ve="3">Poco X3 NFC</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements7" ve="3">
+			<clickTask>17</clickTask>
+			<flags>4</flags>
+			<geom>29,296,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button5</Str>
+			<Str sr="arg1" ve="3">Mi 10T</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements8" ve="3">
+			<clickTask>19</clickTask>
+			<flags>4</flags>
+			<geom>29,419,321,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button51</Str>
+			<Str sr="arg1" ve="3">Redmi K30S</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements9" ve="3">
+			<clickTask>18</clickTask>
+			<flags>4</flags>
+			<geom>351,296,320,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button52</Str>
+			<Str sr="arg1" ve="3">Mi 10T Pro</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<keyTask>7</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%bgColor</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">%appTitle</Str>
+			<Str sr="arg5" ve="3">%appDeveloper</Str>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneSelectDevice2">
+		<cdate>1683063033134</cdate>
+		<edate>1683381770135</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1483</heightPort>
+		<nme>SelectDevice2</nme>
 		<widthLand>-1</widthLand>
 		<widthPort>702</widthPort>
 		<RectElement sr="elements0">
@@ -693,20 +983,7 @@
 			<Int sr="arg7" val="0"/>
 		</RectElement>
 		<ButtonElement sr="elements4" ve="3">
-			<clickTask>3</clickTask>
-			<flags>4</flags>
-			<geom>29,518,642,198,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Buton21</Str>
-			<Str sr="arg1" ve="3">Mi10T/Pro, Mi10/Pro/Ultra, Redmi K30 S/Pro/Pro Zoom, Poco F2 Pro</Str>
-			<Int sr="arg2" val="16"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%txtColor</Str>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="0"/>
-			<Img sr="arg7" ve="2"/>
-		</ButtonElement>
-		<ButtonElement sr="elements5" ve="3">
-			<clickTask>5</clickTask>
+			<clickTask>30</clickTask>
 			<flags>4</flags>
 			<geom>29,1333,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton22</Str>
@@ -718,9 +995,9 @@
 			<Int sr="arg6" val="0"/>
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
-		<TextElement sr="elements6" ve="3">
+		<TextElement sr="elements5" ve="3">
 			<flags>4</flags>
-			<geom>0,321,701,173,-1,-1,-1,-1</geom>
+			<geom>0,148,701,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Metin11</Str>
 			<Str sr="arg1" ve="3">%deviceSelectedProcess</Str>
 			<Int sr="arg2" val="16"/>
@@ -731,25 +1008,12 @@
 			<Int sr="arg7" val="2"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<ButtonElement sr="elements7" ve="3">
-			<clickTask>10</clickTask>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>44</clickTask>
 			<flags>4</flags>
-			<geom>29,741,642,124,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Buton211</Str>
-			<Str sr="arg1" ve="3">Mi9T/Pro, Mi Note 10/Pro, Redmi Note 10 Pro/Max</Str>
-			<Int sr="arg2" val="16"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%txtColor</Str>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="0"/>
-			<Img sr="arg7" ve="2"/>
-		</ButtonElement>
-		<ButtonElement sr="elements8" ve="3">
-			<clickTask>16</clickTask>
-			<flags>4</flags>
-			<geom>29,889,642,124,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Buton212</Str>
-			<Str sr="arg1" ve="3">Poco X3 NFC</Str>
+			<geom>29,1210,642,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton221</Str>
+			<Str sr="arg1" ve="3">Diğer cihazlar...</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%txtColor</Str>
@@ -758,7 +1022,7 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<PropertiesElement sr="props">
-			<keyTask>7</keyTask>
+			<keyTask>45</keyTask>
 			<Int sr="arg0" val="2"/>
 			<Int sr="arg1" val="2"/>
 			<Str sr="arg2" ve="3">%bgColor</Str>
@@ -839,39 +1103,6 @@
 			<LinkClickFilter sr="filter0"/>
 		</PropertiesElement>
 	</Scene>
-	<Task sr="task10">
-		<cdate>1682135304057</cdate>
-		<edate>1682135304057</edate>
-		<id>10</id>
-		<pri>2</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">%deviceSelected</Str>
-			<Str sr="arg1" ve="3">mi9t</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Device Selected</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task101">
 		<cdate>1682601954314</cdate>
 		<edate>1682849875013</edate>
@@ -1193,7 +1424,7 @@ En güncel sürüm olan %appVersion yüklü.</Str>
 	</Task>
 	<Task sr="task12">
 		<cdate>1683065868129</cdate>
-		<edate>1683140405104</edate>
+		<edate>1683382263287</edate>
 		<id>12</id>
 		<nme>Devices</nme>
 		<Action sr="act0" ve="7">
@@ -1590,6 +1821,103 @@ Root Erişimi
 			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task17">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>17</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">SD865</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task18">
+		<cdate>1683380508306</cdate>
+		<edate>1683380508306</edate>
+		<id>18</id>
+		<pri>108</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">SD865</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task19">
+		<cdate>1683380520943</cdate>
+		<edate>1683380520943</edate>
+		<id>19</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">SD865</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task2">
 		<cdate>1682840936560</cdate>
 		<edate>1682850912927</edate>
@@ -1841,11 +2169,10 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task3">
-		<cdate>1682135304057</cdate>
-		<edate>1682135304057</edate>
-		<id>3</id>
-		<pri>2</pri>
+	<Task sr="task20">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>20</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<se>false</se>
@@ -1874,154 +2201,24 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task4">
-		<cdate>1683084446320</cdate>
-		<edate>1683357341296</edate>
-		<id>4</id>
-		<nme>Device Selected</nme>
+	<Task sr="task21">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>21</id>
 		<Action sr="act0" ve="7">
-			<code>49</code>
+			<code>547</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">SelectDevice</Str>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">SD865</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%deviceSelectedFor</lhs>
-					<op>2</op>
-					<rhs>qpstmodeenable</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%deviceSelectedFor</lhs>
-					<op>2</op>
-					<rhs>eraseefs</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmProcess</Str>
-			<Str sr="arg1" ve="3">efserase</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmText</Str>
-			<Str sr="arg1" ve="3">%deviceSelected için EFS'yi silmek istediğinizden emin misiniz?
-
-Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numaraları geri döndürülemeyecek şekilde silinir.
-
-(Bu işlem sona erdikten sonra cihazınız yeniden başlatılacak)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act14" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Confirm Dialog</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmProcess</Str>
-			<Str sr="arg1" ve="3">qpst</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmText</Str>
-			<Str sr="arg1" ve="3">%deviceSelected için QPST Modunu açmak istediğinizden emin misiniz?</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Confirm Dialog</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%deviceSelectedFor</lhs>
-					<op>2</op>
-					<rhs>backupefs</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmProcess</Str>
-			<Str sr="arg1" ve="3">efsbackup</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%confirmText</Str>
-			<Str sr="arg1" ve="3">%deviceSelected için EFS'yi yedeklemek istediğinizden emin misiniz?</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Confirm Dialog</Str>
+			<Str sr="arg0" ve="3">Device Selected</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -2036,10 +2233,537 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task22">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>22</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">SD865</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task23">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>23</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">mi9t</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task24">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>24</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">mi9t</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>25</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">mi9t</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task26">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>26</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">mi9t</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>27</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">mi9t</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task28">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>28</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">mi9t</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task29">
+		<cdate>1682601979707</cdate>
+		<edate>1682601979707</edate>
+		<id>29</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">SelectDevice2</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">SelectDevice</Str>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1683380482683</cdate>
+		<edate>1683380482683</edate>
+		<id>3</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%deviceSelected</Str>
+			<Str sr="arg1" ve="3">mi9t</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Device Selected</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task30">
+		<cdate>1682601979707</cdate>
+		<edate>1682601979707</edate>
+		<id>30</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Clear Variables</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">SelectDevice2</Str>
+		</Action>
+	</Task>
+	<Task sr="task4">
+		<cdate>1683084446320</cdate>
+		<edate>1683382288290</edate>
+		<id>4</id>
+		<nme>Device Selected</nme>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">SelectDevice</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">SelectDevice2</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Confirm Dialog</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%deviceSelectedFor</lhs>
+					<op>2</op>
+					<rhs>eraseefs</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmProcess</Str>
+			<Str sr="arg1" ve="3">efserase</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmText</Str>
+			<Str sr="arg1" ve="3">EFS'yi silmek istediğinizden emin misiniz?
+
+Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numaraları geri döndürülemeyecek şekilde silinir.
+
+(Bu işlem sona erdikten sonra cihazınız yeniden başlatılacak)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Confirm Dialog</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%deviceSelectedFor</lhs>
+					<op>2</op>
+					<rhs>qpstmodeenable</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmProcess</Str>
+			<Str sr="arg1" ve="3">qpst</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmText</Str>
+			<Str sr="arg1" ve="3">QPST Modunu açmak istediğinizden emin misiniz?</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Confirm Dialog</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%deviceSelectedFor</lhs>
+					<op>2</op>
+					<rhs>backupefs</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmProcess</Str>
+			<Str sr="arg1" ve="3">efsbackup</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmText</Str>
+			<Str sr="arg1" ve="3">EFS'yi yedeklemek istediğinizden emin misiniz?</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task44">
+		<cdate>1682601979707</cdate>
+		<edate>1683382411944</edate>
+		<id>44</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">SelectDevice</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">SelectDevice2</Str>
+		</Action>
+	</Task>
+	<Task sr="task45">
+		<cdate>1683129388114</cdate>
+		<edate>1683129388114</edate>
+		<id>45</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Clear Variables</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
 	<Task sr="task5">
 		<cdate>1682601979707</cdate>
 		<edate>1682601979707</edate>
 		<id>5</id>
+		<pri>108</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Clear Variables</Str>
@@ -2374,7 +3098,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task69">
 		<cdate>1682134269332</cdate>
-		<edate>1683357520532</edate>
+		<edate>1683389820608</edate>
 		<id>69</id>
 		<nme>Start</nme>
 		<pri>100</pri>
@@ -2396,7 +3120,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appDeveloper</Str>
-			<Str sr="arg1" ve="3">symbuzzer</Str>
+			<Str sr="arg1" ve="3">Ali BEYAZ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2554,7 +3278,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appVersion</Str>
-			<Str sr="arg1" ve="3">v2.0.4</Str>
+			<Str sr="arg1" ve="3">v2.1.0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2565,7 +3289,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appLongVersion</Str>
-			<Str sr="arg1" ve="3">204</Str>
+			<Str sr="arg1" ve="3">210</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2587,6 +3311,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 		<cdate>1683129388114</cdate>
 		<edate>1683129388114</edate>
 		<id>7</id>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Clear Variables</Str>
@@ -2819,7 +3544,7 @@ Root Erişimi
 	</Task>
 	<Task sr="task72">
 		<cdate>1682134818371</cdate>
-		<edate>1683357440670</edate>
+		<edate>1683384861896</edate>
 		<id>72</id>
 		<nme>Erase EFS</nme>
 		<Action sr="act0" ve="7">
@@ -3231,7 +3956,7 @@ Root Erişimi
 	</Task>
 	<Task sr="task77">
 		<cdate>1682623647237</cdate>
-		<edate>1683139712190</edate>
+		<edate>1683382161520</edate>
 		<id>77</id>
 		<nme>Confirm Dialog</nme>
 		<Action sr="act0" ve="7">
@@ -3380,7 +4105,7 @@ Root Erişimi
 		<cdate>1682146161234</cdate>
 		<edate>1682146161234</edate>
 		<id>83</id>
-		<pri>102</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<se>false</se>
@@ -3389,7 +4114,7 @@ Root Erişimi
 	</Task>
 	<Task sr="task84">
 		<cdate>1682621079722</cdate>
-		<edate>1683139908597</edate>
+		<edate>1683382206534</edate>
 		<id>84</id>
 		<nme>Confirm</nme>
 		<Action sr="act0" ve="7">
@@ -3944,6 +4669,7 @@ Uygulama kullandığı izinlerin hepsine ihtiyaç duymaktadır. İzin ayarların
 		<cdate>1682593019249</cdate>
 		<edate>1682593019249</edate>
 		<id>96</id>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<se>false</se>
@@ -3976,6 +4702,7 @@ Uygulama kullandığı izinlerin hepsine ihtiyaç duymaktadır. İzin ayarların
 		<cdate>1682593524968</cdate>
 		<edate>1682593524968</edate>
 		<id>97</id>
+		<pri>110</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<se>false</se>
