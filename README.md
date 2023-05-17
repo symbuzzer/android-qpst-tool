@@ -40,7 +40,7 @@ Qualcomm Snapdragon cihazlar için şebeke sorunlarının çözümü için gerek
 - Bu uygulama Tasker (v6.1.3-beta) ve Tasker App Factory (v6.1.3-beta) ile geliştirilmiştir.  
 - Bu uygulamaların en düşük versiyon olarak yukarıdaki versiyonlarını indirip cihazınıza kurmanız gerekmektedir.    
 - QPST_Tool.prj.xml indirin ve Tasker uygulaması içerisinden proje olarak içe aktarın.  
-- Profil seçeneklerinden, Main and HtmlViewer sahnelerinden uygulama ikonu ayarlayın. İsterseniz icon.png'yi kullanabilirsiniz.  
+- icon.png'yi indirin ve bütün sahnelerde Ünlemli yerleri tıklayarak oradan seçin.  
 - Uygulama olarak dışa aktarırken "Başlangıç görevi: Start", "min android version: 26" and "target android version: 29" olarak ayarlamanız gerekmektedir.
   
 ## Ekran görüntüleri:
