@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="6.1.28">
+<TaskerData sr="" dvi="1" tv="6.2.0-beta">
 	<dmetric>1080.0,2283.0</dmetric>
 	<Profile sr="prof15" ve="2">
 		<cdate>1683356463606</cdate>
-		<edate>1683356555404</edate>
+		<edate>1684330128375</edate>
 		<flags>8</flags>
 		<id>15</id>
 		<mid0>14</mid0>
@@ -17,16 +17,16 @@
 		<cdate>1682134220535</cdate>
 		<name>QPST Tool</name>
 		<pids>15</pids>
-		<scenes>HtmlViewerWoutButton,Splash,SelectDevice2,SelectDevice,HtmlViewer,DebugMenu,Main,Confirm</scenes>
-		<tids>106,114,8,24,13,72,98,99,4,84,88,25,71,28,111,62,110,77,74,26,14,21,6,96,18,97,23,66,17,83,75,113,19,12,9,44,27,94,22,7,81,5,89,45,3,79,78,68,82,11,69,29,102,70,30,76,95,101,20,16,73,63,80,2,85</tids>
+		<scenes>DebugMenu,SelectDevice2,Splash,HtmlViewer,Confirm,HtmlViewerWoutButton,Main,SelectDevice</scenes>
+		<tids>77,78,62,9,29,113,22,30,6,5,102,110,85,89,68,114,28,26,19,81,12,23,7,96,20,66,98,97,83,111,44,72,75,94,69,80,82,18,88,27,101,79,25,71,99,8,17,45,76,13,84,106,16,4,24,63,73,74,95,21,11,70,3,2,14</tids>
 		<tsort>AgeOldestFirst</tsort>
 		<Kid sr="Kid">
 			<launchID>69</launchID>
-			<pkg>com.symbuzzer.qpsttool</pkg>
+			<pkg>com.symbuzzer.qpsttool211</pkg>
 			<vMin>26</vMin>
 			<vTarg>29</vTarg>
-			<vnme>2.1.0</vnme>
-			<vnum>332</vnum>
+			<vnme>2.1.1</vnme>
+			<vnum>338</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Download/icon.png</fle>
@@ -449,7 +449,7 @@
 	</Scene>
 	<Scene sr="sceneMain">
 		<cdate>1682135090682</cdate>
-		<edate>1683381367645</edate>
+		<edate>1684330188925</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>Main</nme>
@@ -564,7 +564,7 @@
 			<flags>4</flags>
 			<geom>29,1185,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton7</Str>
-			<Str sr="arg1" ve="3">Patreon (Bağış)</Str>
+			<Str sr="arg1" ve="3">Github</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%txtColor</Str>
@@ -639,7 +639,7 @@
 	</Scene>
 	<Scene sr="sceneSelectDevice">
 		<cdate>1683063033134</cdate>
-		<edate>1683389816126</edate>
+		<edate>1684327803362</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>SelectDevice</nme>
@@ -674,7 +674,7 @@
 		<ButtonElement sr="elements10" ve="3">
 			<clickTask>20</clickTask>
 			<flags>4</flags>
-			<geom>351,419,321,124,-1,-1,-1,-1</geom>
+			<geom>351,494,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button53</Str>
 			<Str sr="arg1" ve="3">Redmi K30 Pro</Str>
 			<Int sr="arg2" val="16"/>
@@ -687,7 +687,7 @@
 		<ButtonElement sr="elements11" ve="3">
 			<clickTask>21</clickTask>
 			<flags>4</flags>
-			<geom>29,543,321,124,-1,-1,-1,-1</geom>
+			<geom>29,617,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button54</Str>
 			<Str sr="arg1" ve="3">Redmi K30 Pro Zoom</Str>
 			<Int sr="arg2" val="16"/>
@@ -700,7 +700,7 @@
 		<ButtonElement sr="elements12" ve="3">
 			<clickTask>22</clickTask>
 			<flags>4</flags>
-			<geom>351,543,321,124,-1,-1,-1,-1</geom>
+			<geom>351,617,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button55</Str>
 			<Str sr="arg1" ve="3">Poco F2 Pro</Str>
 			<Int sr="arg2" val="16"/>
@@ -713,7 +713,7 @@
 		<ButtonElement sr="elements13" ve="3">
 			<clickTask>23</clickTask>
 			<flags>4</flags>
-			<geom>29,666,321,124,-1,-1,-1,-1</geom>
+			<geom>29,741,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button6</Str>
 			<Str sr="arg1" ve="3">Mi 9T</Str>
 			<Int sr="arg2" val="16"/>
@@ -726,7 +726,7 @@
 		<ButtonElement sr="elements14" ve="3">
 			<clickTask>24</clickTask>
 			<flags>4</flags>
-			<geom>351,666,321,124,-1,-1,-1,-1</geom>
+			<geom>351,741,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button61</Str>
 			<Str sr="arg1" ve="3">Mi 9T Pro</Str>
 			<Int sr="arg2" val="16"/>
@@ -739,7 +739,7 @@
 		<ButtonElement sr="elements15" ve="3">
 			<clickTask>25</clickTask>
 			<flags>4</flags>
-			<geom>29,790,321,124,-1,-1,-1,-1</geom>
+			<geom>29,864,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button62</Str>
 			<Str sr="arg1" ve="3">Mi Note 10</Str>
 			<Int sr="arg2" val="16"/>
@@ -752,7 +752,7 @@
 		<ButtonElement sr="elements16" ve="3">
 			<clickTask>26</clickTask>
 			<flags>4</flags>
-			<geom>351,790,321,124,-1,-1,-1,-1</geom>
+			<geom>351,864,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button63</Str>
 			<Str sr="arg1" ve="3">Mi Note 10 Pro</Str>
 			<Int sr="arg2" val="16"/>
@@ -765,7 +765,7 @@
 		<ButtonElement sr="elements17" ve="3">
 			<clickTask>27</clickTask>
 			<flags>4</flags>
-			<geom>29,913,321,124,-1,-1,-1,-1</geom>
+			<geom>29,988,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button64</Str>
 			<Str sr="arg1" ve="3">Redmi Note 10 Pro</Str>
 			<Int sr="arg2" val="16"/>
@@ -778,7 +778,7 @@
 		<ButtonElement sr="elements18" ve="3">
 			<clickTask>28</clickTask>
 			<flags>4</flags>
-			<geom>351,913,321,124,-1,-1,-1,-1</geom>
+			<geom>351,988,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button65</Str>
 			<Str sr="arg1" ve="3">Redmi Note 10 Pro Max</Str>
 			<Int sr="arg2" val="16"/>
@@ -812,7 +812,7 @@
 		<ButtonElement sr="elements20" ve="3">
 			<clickTask>3</clickTask>
 			<flags>4</flags>
-			<geom>351,1037,321,124,-1,-1,-1,-1</geom>
+			<geom>351,1111,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button66</Str>
 			<Str sr="arg1" ve="3">Redmi Note 9 Pro</Str>
 			<Int sr="arg2" val="16"/>
@@ -849,7 +849,7 @@
 		</ButtonElement>
 		<TextElement sr="elements5" ve="3">
 			<flags>4</flags>
-			<geom>0,148,701,124,-1,-1,-1,-1</geom>
+			<geom>0,148,701,173,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Metin11</Str>
 			<Str sr="arg1" ve="3">%deviceSelectedProcess</Str>
 			<Int sr="arg2" val="16"/>
@@ -863,7 +863,7 @@
 		<ButtonElement sr="elements6" ve="3">
 			<clickTask>16</clickTask>
 			<flags>4</flags>
-			<geom>29,1037,321,124,-1,-1,-1,-1</geom>
+			<geom>29,1111,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton7</Str>
 			<Str sr="arg1" ve="3">Poco X3 NFC</Str>
 			<Int sr="arg2" val="16"/>
@@ -876,7 +876,7 @@
 		<ButtonElement sr="elements7" ve="3">
 			<clickTask>17</clickTask>
 			<flags>4</flags>
-			<geom>29,296,321,124,-1,-1,-1,-1</geom>
+			<geom>29,370,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button5</Str>
 			<Str sr="arg1" ve="3">Mi 10T</Str>
 			<Int sr="arg2" val="16"/>
@@ -889,7 +889,7 @@
 		<ButtonElement sr="elements8" ve="3">
 			<clickTask>19</clickTask>
 			<flags>4</flags>
-			<geom>29,419,321,124,-1,-1,-1,-1</geom>
+			<geom>29,494,321,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button51</Str>
 			<Str sr="arg1" ve="3">Redmi K30S</Str>
 			<Int sr="arg2" val="16"/>
@@ -902,7 +902,7 @@
 		<ButtonElement sr="elements9" ve="3">
 			<clickTask>18</clickTask>
 			<flags>4</flags>
-			<geom>351,296,320,124,-1,-1,-1,-1</geom>
+			<geom>351,370,320,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button52</Str>
 			<Str sr="arg1" ve="3">Mi 10T Pro</Str>
 			<Int sr="arg2" val="16"/>
@@ -929,7 +929,7 @@
 	</Scene>
 	<Scene sr="sceneSelectDevice2">
 		<cdate>1683063033134</cdate>
-		<edate>1683381770135</edate>
+		<edate>1684330202022</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>SelectDevice2</nme>
@@ -1146,6 +1146,7 @@ Bu menüden gerçekleştirilecek işlemler cihazınızı kullanılmaz hale getir
 			<Int sr="arg12" val="0"/>
 			<Str sr="arg13" ve="3"/>
 			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -1168,7 +1169,7 @@ Bu menüden gerçekleştirilecek işlemler cihazınızı kullanılmaz hale getir
 	</Task>
 	<Task sr="task106">
 		<cdate>1682609745800</cdate>
-		<edate>1682866085327</edate>
+		<edate>1684329507358</edate>
 		<id>106</id>
 		<nme>Manual Update</nme>
 		<Action sr="act0" ve="7">
@@ -1294,7 +1295,8 @@ Bu menüden gerçekleştirilecek işlemler cihazınızı kullanılmaz hale getir
 			<Str sr="arg0" ve="3">%htmlContent</Str>
 			<Str sr="arg1" ve="3">Yeni güncelleme mevcut değil.
 
-En güncel sürüm olan %appVersion yüklü.</Str>
+Github'taki son versiyon: %appUpdateLongVersion
+Şu an bu cihazda versiyon %appLongVersion yüklü.</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -1337,7 +1339,7 @@ En güncel sürüm olan %appVersion yüklü.</Str>
 	</Task>
 	<Task sr="task110">
 		<cdate>1682710052027</cdate>
-		<edate>1683129279361</edate>
+		<edate>1684328930168</edate>
 		<id>110</id>
 		<nme>Variables</nme>
 		<Action sr="act0" ve="7">
@@ -1717,7 +1719,7 @@ Lütfen bunları başka bir cihazda daha saklayın.</Str>
 	</Task>
 	<Task sr="task14">
 		<cdate>1683356154111</cdate>
-		<edate>1683356555404</edate>
+		<edate>1684330128375</edate>
 		<id>14</id>
 		<nme>Auto Uninstall</nme>
 		<Action sr="act0" ve="7">
@@ -1753,6 +1755,7 @@ Root Erişimi
 			<Int sr="arg12" val="0"/>
 			<Str sr="arg13" ve="3"/>
 			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -1785,6 +1788,26 @@ Root Erişimi
 			<Int sr="arg7" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>548</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Eski sürüm kaldırıldı</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -2829,7 +2852,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task62">
 		<cdate>1682343801506</cdate>
-		<edate>1683089945725</edate>
+		<edate>1684330257649</edate>
 		<id>62</id>
 		<nme>Set Permissions</nme>
 		<pri>6</pri>
@@ -3072,7 +3095,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task68">
 		<cdate>1682138315241</cdate>
-		<edate>1682715023922</edate>
+		<edate>1684329774604</edate>
 		<id>68</id>
 		<nme>Easter Egg</nme>
 		<pri>100</pri>
@@ -3086,6 +3109,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<Int sr="arg12" val="0"/>
 			<Str sr="arg13" ve="3"/>
 			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -3098,7 +3122,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task69">
 		<cdate>1682134269332</cdate>
-		<edate>1683389820608</edate>
+		<edate>1684328907178</edate>
 		<id>69</id>
 		<nme>Start</nme>
 		<pri>100</pri>
@@ -3278,7 +3302,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appVersion</Str>
-			<Str sr="arg1" ve="3">v2.1.0</Str>
+			<Str sr="arg1" ve="3">v2.1.1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -3289,7 +3313,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appLongVersion</Str>
-			<Str sr="arg1" ve="3">210</Str>
+			<Str sr="arg1" ve="3">211</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -3331,7 +3355,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task70">
 		<cdate>1682134481806</cdate>
-		<edate>1683356271676</edate>
+		<edate>1684329765645</edate>
 		<id>70</id>
 		<nme>Root</nme>
 		<pri>100</pri>
@@ -3376,7 +3400,11 @@ Root Erişimi
 		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%htmlContent</Str>
-			<Str sr="arg1" ve="3">ROOT gerekli :(</Str>
+			<Str sr="arg1" ve="3">ROOT gerekli :(
+
+Eğer ilk seferde ROOT izni vermediyseniz, "Magisk" uygulamasındaki "Süper Kullanıcı" sekmesinden "QPST Tool"un yanındaki butonu aktifleştirin.
+
+Eğer Magisk uygulaması yüklü değilse cihazınızda ROOT bulunmamaktadır. ROOT yetkisi olmadan bu uygulamayı kullanamazsınız.</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -3449,7 +3477,7 @@ Root Erişimi
 	</Task>
 	<Task sr="task71">
 		<cdate>1682134777624</cdate>
-		<edate>1683357350400</edate>
+		<edate>1684330140824</edate>
 		<id>71</id>
 		<nme>Enable QPST Mode</nme>
 		<pri>100</pri>
@@ -3765,7 +3793,7 @@ Root Erişimi
 	</Task>
 	<Task sr="task73">
 		<cdate>1682134830260</cdate>
-		<edate>1683140376748</edate>
+		<edate>1684329770334</edate>
 		<id>73</id>
 		<nme>Check Update</nme>
 		<pri>100</pri>
@@ -3891,7 +3919,7 @@ Root Erişimi
 	</Task>
 	<Task sr="task74">
 		<cdate>1682135052020</cdate>
-		<edate>1682747843911</edate>
+		<edate>1684330146163</edate>
 		<id>74</id>
 		<nme>Exit</nme>
 		<Action sr="act0" ve="7">
@@ -3977,7 +4005,7 @@ Root Erişimi
 	</Task>
 	<Task sr="task78">
 		<cdate>1682136629305</cdate>
-		<edate>1683088042481</edate>
+		<edate>1684330172837</edate>
 		<id>78</id>
 		<nme>Reboot</nme>
 		<Action sr="act0" ve="7">
@@ -4068,13 +4096,13 @@ Root Erişimi
 	</Task>
 	<Task sr="task81">
 		<cdate>1682142678120</cdate>
-		<edate>1682320441049</edate>
+		<edate>1684327636693</edate>
 		<id>81</id>
-		<nme>Patreon</nme>
+		<nme>Github</nme>
 		<Action sr="act0" ve="7">
 			<code>104</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">https://avalibeyaz.com/patreon</Str>
+			<Str sr="arg0" ve="3">https://avalibeyaz.com/github</Str>
 			<App sr="arg1"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
@@ -4086,7 +4114,7 @@ Root Erişimi
 		<id>82</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Patreon</Str>
+			<Str sr="arg0" ve="3">Github</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -4105,7 +4133,7 @@ Root Erişimi
 		<cdate>1682146161234</cdate>
 		<edate>1682146161234</edate>
 		<id>83</id>
-		<pri>104</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<se>false</se>
@@ -4114,7 +4142,7 @@ Root Erişimi
 	</Task>
 	<Task sr="task84">
 		<cdate>1682621079722</cdate>
-		<edate>1683382206534</edate>
+		<edate>1684328875896</edate>
 		<id>84</id>
 		<nme>Confirm</nme>
 		<Action sr="act0" ve="7">
@@ -4454,7 +4482,7 @@ Bu şartları kabul etmiyorsanız lütfen uygulamadan ayrılın ve uygulamayı d
 	</Task>
 	<Task sr="task89">
 		<cdate>1682362841044</cdate>
-		<edate>1683353571002</edate>
+		<edate>1684329533693</edate>
 		<id>89</id>
 		<nme>Install Update</nme>
 		<pri>100</pri>
@@ -4513,7 +4541,8 @@ Bu şartları kabul etmiyorsanız lütfen uygulamadan ayrılın ve uygulamayı d
 		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%htmlContent</Str>
-			<Str sr="arg1" ve="3">Güncelleme bulundu!
+			<Str sr="arg1" ve="3">Güncelleme bulundu: %appUpdateLongVersion
+(Yüklü versiyon: %appLongVersion)
 
 Uygulamayı kullanmaya devam edebilmek için güncelleme yapmalısınız.
 
@@ -4596,7 +4625,7 @@ Tamam'a bastıktan sonra uygulama indirilecek. İndirme tamamlandıktan sonra "q
 		<cdate>1683353579085</cdate>
 		<edate>1683353579085</edate>
 		<id>9</id>
-		<pri>102</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
