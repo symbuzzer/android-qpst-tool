@@ -1,5 +1,24 @@
 # ROOT'lu Qualcomm Snapdragon cihazlar için QPST Tool  
-Qualcomm Snapdragon cihazlar için şebeke sorunlarının çözümü için gerekli kısa yolları içerir ücretsiz, reklamsız ve açık kaynak Android uygulaması...    
+Qualcomm Snapdragon cihazlar için şebeke sorunlarının çözümü için gerekli kısa yolları içerir ücretsiz, reklamsız ve açık kaynak Android uygulaması...  
+
+## Desteklenen cihazlar:  
+- Xiaomi  
+  - Mi 10T
+  - Mi 10T Pro 
+  - Mi 9T
+  - Mi 9T Pro
+  - Mi Note 10
+  - Mi Note 10 Pro
+- Redmi
+  - K30S
+  - K30 Pro
+  - K30 Pro Zoom
+  - Note 10 Pro
+  - Note 10 Pro Max  
+  - Note 9 Pro  
+- Poco  
+  - F2 Pro
+  - X3 NFC
   
 ## Nasıl kullanırım:
 - Ne işe yaradığını bilmiyorsanız lütfen ama lütfen indirmeyin! Cihazınıza kalıcı zararlar verebilir.
