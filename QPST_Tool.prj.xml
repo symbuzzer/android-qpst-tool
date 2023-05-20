@@ -17,16 +17,16 @@
 		<cdate>1682134220535</cdate>
 		<name>QPST Tool</name>
 		<pids>15</pids>
-		<scenes>DebugMenu,SelectDevice2,Splash,HtmlViewer,Confirm,HtmlViewerWoutButton,Main,SelectDevice</scenes>
-		<tids>77,78,62,9,29,113,22,30,6,5,102,110,85,89,68,114,28,26,19,81,12,23,7,96,20,66,98,97,83,111,44,72,75,94,69,80,82,18,88,27,101,79,25,71,99,8,17,45,76,13,84,106,16,4,24,63,73,74,95,21,11,70,3,2,14</tids>
+		<scenes>Confirm,HtmlViewerWoutButton,Splash,SelectDevice,DebugMenu,Main,SelectDevice2,HtmlViewer</scenes>
+		<tids>89,111,7,97,13,83,21,102,26,4,72,14,95,110,3,8,9,68,84,113,44,66,23,114,28,20,22,82,25,85,16,27,99,80,63,19,94,24,71,17,11,6,73,18,5,96,78,12,101,29,30,88,74,75,81,77,76,79,106,98,45,62,2,70,69</tids>
 		<tsort>AgeOldestFirst</tsort>
 		<Kid sr="Kid">
 			<launchID>69</launchID>
-			<pkg>com.symbuzzer.qpsttool211</pkg>
+			<pkg>com.symbuzzer.qpsttool212</pkg>
 			<vMin>26</vMin>
 			<vTarg>29</vTarg>
-			<vnme>2.1.1</vnme>
-			<vnum>338</vnum>
+			<vnme>2.1.2</vnme>
+			<vnum>339</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Download/icon.png</fle>
@@ -3122,7 +3122,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task69">
 		<cdate>1682134269332</cdate>
-		<edate>1684328907178</edate>
+		<edate>1684601322028</edate>
 		<id>69</id>
 		<nme>Start</nme>
 		<pri>100</pri>
@@ -3134,11 +3134,16 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%confirmExit</Str>
-			<Int sr="arg1" val="0"/>
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%progressText</Str>
+			<Str sr="arg1" ve="3">- Değişkenler siliniyor...
+</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>547</code>
@@ -3195,22 +3200,6 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Clear Variables</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>130</code>
 			<Str sr="arg0" ve="3">Theme</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -3225,7 +3214,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act16" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Root</Str>
 			<Int sr="arg1">
@@ -3242,18 +3231,6 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>547</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">%progressText</Str>
-			<Str sr="arg1" ve="3">- Değişkenler siliniyor...
-</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>47</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Splash</Str>
@@ -3266,6 +3243,22 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Clear Variables</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
@@ -3302,7 +3295,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appVersion</Str>
-			<Str sr="arg1" ve="3">v2.1.1</Str>
+			<Str sr="arg1" ve="3">v2.1.2</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -3313,7 +3306,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appLongVersion</Str>
-			<Str sr="arg1" ve="3">211</Str>
+			<Str sr="arg1" ve="3">212</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -3355,7 +3348,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task70">
 		<cdate>1682134481806</cdate>
-		<edate>1684329765645</edate>
+		<edate>1684601339652</edate>
 		<id>70</id>
 		<nme>Root</nme>
 		<pri>100</pri>
@@ -3477,7 +3470,7 @@ Eğer Magisk uygulaması yüklü değilse cihazınızda ROOT bulunmamaktadır. R
 	</Task>
 	<Task sr="task71">
 		<cdate>1682134777624</cdate>
-		<edate>1684330140824</edate>
+		<edate>1684601296681</edate>
 		<id>71</id>
 		<nme>Enable QPST Mode</nme>
 		<pri>100</pri>
@@ -3506,6 +3499,14 @@ Eğer Magisk uygulaması yüklü değilse cihazınızda ROOT bulunmamaktadır. R
 			<Int sr="arg7" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -3515,7 +3516,7 @@ Eğer Magisk uygulaması yüklü değilse cihazınızda ROOT bulunmamaktadır. R
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">setprop sys.usb.config diag,diag_mdm,adb</Str>
 			<Int sr="arg1" val="0"/>
@@ -3526,10 +3527,10 @@ Eğer Magisk uygulaması yüklü değilse cihazınızda ROOT bulunmamaktadır. R
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">setprop sys.usb.config diag,adb</Str>
 			<Int sr="arg1" val="0"/>
@@ -3540,20 +3541,20 @@ Eğer Magisk uygulaması yüklü değilse cihazınızda ROOT bulunmamaktadır. R
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%htmlContent</Str>
-			<Str sr="arg1" ve="3">QPST Modu açıldı!</Str>
+			<Str sr="arg1" ve="3">ADB ve QPST Modu açıldı!</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Clear Variables</Str>
 			<Int sr="arg1">
@@ -3919,10 +3920,18 @@ Eğer Magisk uygulaması yüklü değilse cihazınızda ROOT bulunmamaktadır. R
 	</Task>
 	<Task sr="task74">
 		<cdate>1682135052020</cdate>
-		<edate>1684330146163</edate>
+		<edate>1684601228737</edate>
 		<id>74</id>
 		<nme>Exit</nme>
 		<Action sr="act0" ve="7">
+			<code>406</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">version</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Main</Str>
 		</Action>
@@ -4411,7 +4420,7 @@ Eğer Magisk uygulaması yüklü değilse cihazınızda ROOT bulunmamaktadır. R
 	</Task>
 	<Task sr="task88">
 		<cdate>1682362475749</cdate>
-		<edate>1683356109299</edate>
+		<edate>1684601369897</edate>
 		<id>88</id>
 		<nme>Main</nme>
 		<Action sr="act0" ve="7">
@@ -4430,7 +4439,7 @@ Arızalı telefonların onarılması dışında kullanılması kesinlikle yasakt
 
 Kötüye kullanımdan ve cihazda oluşabilecek zararlardan kullanan sorumludur. Geliştiricilere bu hususta hiç bir sorumluluk yüklenemez. 
 
-Bu şartları kabul etmiyorsanız lütfen uygulamadan ayrılın ve uygulamayı derhal kaldırın!</Str>
+Bu şartları kabul etmiyorsanız lütfen uygulamayı derhal kaldırın!</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
