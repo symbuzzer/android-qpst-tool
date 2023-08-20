@@ -22,7 +22,7 @@ Qualcomm Snapdragon cihazlar için şebeke sorunlarının çözümü için gerek
   
 ## Nasıl kullanırım:
 - Ne işe yaradığını bilmiyorsanız lütfen ama lütfen indirmeyin! Cihazınıza kalıcı zararlar verebilir.
-- [qpsttool.apk](https://github.com/symbuzzer/android-qpst-tool/raw/main/qpsttool.apk) dosyasını indirip rootlu cihazınıza kurun.  
+- [qpsttool.apk](https://github.com/symbuzzer/android-qpst-tool/releases/latest/download/qpsttool.apk) dosyasını indirip rootlu cihazınıza kurun.  
 - Uygulamayı çalıştırıp ROOT yetkisi verin. Uygulamanın diğer izinlerine ellemeyin ya da elleyin siz bilirsiniz. 
 
 ## Özellikleri:  
