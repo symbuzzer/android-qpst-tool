@@ -1,11 +1,11 @@
-<TaskerData sr="" dvi="1" tv="6.2.13-rc">
+<TaskerData sr="" dvi="1" tv="6.3.0-beta">
 	<dmetric>1080.0,2283.0</dmetric>
-	<Profile sr="prof68" ve="2">
-		<cdate>1692519922882</cdate>
+	<Profile sr="prof72" ve="2">
+		<cdate>1705786544752</cdate>
 		<clp>true</clp>
 		<edate>1692510208070</edate>
 		<flags>8</flags>
-		<id>68</id>
+		<id>72</id>
 		<mid0>13</mid0>
 		<nme>UpdateListener</nme>
 		<Event sr="con0" ve="2">
@@ -17,17 +17,17 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1682134220535</cdate>
 		<name>QPST Tool</name>
-		<pids>68</pids>
-		<scenes>SelectDevice,Splash,Confirm,HtmlViewerWoutButton,HtmlViewer,DebugMenu,SelectDevice2,Main</scenes>
-		<tids>29,44,37,14,47,4,7,6,49,3,19,20,18,48,60,27,63,23,8,42,16,58,38,41,22,59,12,39,32,62,46,11,9,57,61,31,24,50,54,26,5,53,10,52,66,40,43,17,28,45,65,25,21,30,67,64,51,56,15,34,33,36,55,13,2,35</tids>
+		<pids>72</pids>
+		<scenes>Splash,HtmlViewerWoutButton,HtmlViewer,SelectDevice,Confirm,DebugMenu,SelectDevice2,Main</scenes>
+		<tids>58,14,70,12,5,44,6,59,11,51,4,19,69,71,43,37,27,45,32,63,29,65,15,66,30,38,68,20,7,50,48,49,40,21,61,57,53,26,8,24,13,18,17,75,60,67,64,23,56,34,25,16,47,55,39,52,41,28,33,22,46,31,76,42,2,9,10,36,54,62,3,35</tids>
 		<tsort>AgeOldestFirst</tsort>
 		<Kid sr="Kid">
 			<launchID>35</launchID>
-			<pkg>com.symbuzzer.qpsttool221</pkg>
+			<pkg>com.symbuzzer.qpsttool222</pkg>
 			<vMin>26</vMin>
 			<vTarg>29</vTarg>
-			<vnme>2.2.1</vnme>
-			<vnum>363</vnum>
+			<vnme>2.2.2</vnme>
+			<vnum>376</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Download/icon.png</fle>
@@ -35,7 +35,7 @@
 	</Project>
 	<Scene sr="sceneConfirm">
 		<cdate>1682592156421</cdate>
-		<edate>1683382178695</edate>
+		<edate>1705787305336</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>Confirm</nme>
@@ -142,7 +142,7 @@
 	</Scene>
 	<Scene sr="sceneDebugMenu">
 		<cdate>1682601293999</cdate>
-		<edate>1683358406078</edate>
+		<edate>1705783618863</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>DebugMenu</nme>
@@ -165,7 +165,7 @@
 			<flags>4</flags>
 			<geom>29,1185,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton1</Str>
-			<Str sr="arg1" ve="3">Run Update Task</Str>
+			<Str sr="arg1" ve="3">Güncelleme özelliğini dene</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%txtColor</Str>
@@ -175,7 +175,7 @@
 		</ButtonElement>
 		<TextElement sr="elements2" ve="3">
 			<flags>4</flags>
-			<geom>29,148,642,865,-1,-1,-1,-1</geom>
+			<geom>29,148,642,568,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Metin1</Str>
 			<Str sr="arg1" ve="3">%debugText</Str>
 			<Int sr="arg2" val="16"/>
@@ -204,7 +204,7 @@
 			<flags>4</flags>
 			<geom>29,1037,642,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton5</Str>
-			<Str sr="arg1" ve="3">Variables</Str>
+			<Str sr="arg1" ve="3">Değişkenler</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%txtColor</Str>
@@ -247,6 +247,32 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
+		<ButtonElement sr="elements8" ve="3">
+			<clickTask>71</clickTask>
+			<flags>4</flags>
+			<geom>29,889,642,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton4</Str>
+			<Str sr="arg1" ve="3">boot.img flaşla</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements9" ve="3">
+			<clickTask>70</clickTask>
+			<flags>4</flags>
+			<geom>29,741,642,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton6</Str>
+			<Str sr="arg1" ve="3">recovery.img flaşla</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
 		<PropertiesElement sr="props">
 			<Int sr="arg0" val="2"/>
 			<Int sr="arg1" val="2"/>
@@ -450,7 +476,7 @@
 	</Scene>
 	<Scene sr="sceneMain">
 		<cdate>1682135090682</cdate>
-		<edate>1684330188925</edate>
+		<edate>1705788099736</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>Main</nme>
@@ -520,6 +546,32 @@
 			<Int sr="arg6" val="0"/>
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
+		<ButtonElement sr="elements13" ve="3">
+			<clickTask>75</clickTask>
+			<flags>4</flags>
+			<geom>29,889,642,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton51</Str>
+			<Str sr="arg1" ve="3">Recovery</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements14" ve="3">
+			<clickTask>76</clickTask>
+			<flags>4</flags>
+			<geom>29,1037,642,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton52</Str>
+			<Str sr="arg1" ve="3">Fastboot</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>41</clickTask>
 			<flags>4</flags>
@@ -536,7 +588,7 @@
 		<ButtonElement sr="elements3" ve="3">
 			<clickTask>42</clickTask>
 			<flags>4</flags>
-			<geom>29,1333,642,124,-1,-1,-1,-1</geom>
+			<geom>351,1333,321,124,-1,-1,-1,-1</geom>
 			<longclickTask>46</longclickTask>
 			<Str sr="arg0" ve="3">Buton4</Str>
 			<Str sr="arg1" ve="3">Çıkış</Str>
@@ -550,9 +602,9 @@
 		<ButtonElement sr="elements4" ve="3">
 			<clickTask>45</clickTask>
 			<flags>4</flags>
-			<geom>29,889,642,124,-1,-1,-1,-1</geom>
+			<geom>29,1185,297,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton6</Str>
-			<Str sr="arg1" ve="3">Güncelleme kontrolü</Str>
+			<Str sr="arg1" ve="3">Güncelle</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%txtColor</Str>
@@ -563,7 +615,7 @@
 		<ButtonElement sr="elements5" ve="3">
 			<clickTask>48</clickTask>
 			<flags>4</flags>
-			<geom>29,1185,642,124,-1,-1,-1,-1</geom>
+			<geom>29,1333,297,124,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Buton7</Str>
 			<Str sr="arg1" ve="3">Github</Str>
 			<Int sr="arg2" val="16"/>
@@ -602,7 +654,7 @@
 		<ButtonElement sr="elements8" ve="3">
 			<clickTask>55</clickTask>
 			<flags>4</flags>
-			<geom>29,1037,642,124,-1,-1,-1,-1</geom>
+			<geom>351,1185,321,124,-1,-1,-1,-1</geom>
 			<longclickTask>60</longclickTask>
 			<Str sr="arg0" ve="3">Buton11</Str>
 			<Str sr="arg1" ve="3">Hakkında</Str>
@@ -1214,7 +1266,7 @@
 	</Task>
 	<Task sr="task12">
 		<cdate>1682134818371</cdate>
-		<edate>1683357501213</edate>
+		<edate>1705786832179</edate>
 		<id>12</id>
 		<nme>Backup EFS</nme>
 		<pri>100</pri>
@@ -1432,7 +1484,7 @@ Lütfen bunları başka bir cihazda daha saklayın.</Str>
 	</Task>
 	<Task sr="task13">
 		<cdate>1683356154111</cdate>
-		<edate>1692516614898</edate>
+		<edate>1705786815466</edate>
 		<id>13</id>
 		<nme>Auto Uninstall</nme>
 		<Action sr="act0" ve="7">
@@ -2562,7 +2614,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 	</Task>
 	<Task sr="task34">
 		<cdate>1682138315241</cdate>
-		<edate>1692511733676</edate>
+		<edate>1705786825979</edate>
 		<id>34</id>
 		<nme>Easter Egg</nme>
 		<pri>100</pri>
@@ -2589,7 +2641,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 	</Task>
 	<Task sr="task35">
 		<cdate>1682134269332</cdate>
-		<edate>1692520079239</edate>
+		<edate>1705786837635</edate>
 		<id>35</id>
 		<nme>Start</nme>
 		<pri>100</pri>
@@ -2657,18 +2709,6 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act14" ve="7">
-			<code>547</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">%progressText</Str>
-			<Str sr="arg1" ve="3">- Geçici dosyalar temizleniyor...
-</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act15" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Theme</Str>
 			<Int sr="arg1">
@@ -2684,7 +2724,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Root</Str>
 			<Int sr="arg1">
@@ -2765,7 +2805,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appVersion</Str>
-			<Str sr="arg1" ve="3">v2.2.1</Str>
+			<Str sr="arg1" ve="3">v2.2.2</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2776,7 +2816,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appLongVersion</Str>
-			<Str sr="arg1" ve="3">221</Str>
+			<Str sr="arg1" ve="3">222</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2796,7 +2836,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 	</Task>
 	<Task sr="task36">
 		<cdate>1682134481806</cdate>
-		<edate>1692519966840</edate>
+		<edate>1705783079432</edate>
 		<id>36</id>
 		<nme>Root</nme>
 		<pri>100</pri>
@@ -2861,9 +2901,9 @@ Root Erişimi
 			<Str sr="arg0" ve="3">%htmlContent</Str>
 			<Str sr="arg1" ve="3">ROOT gerekli :(
 
-"Magisk" veya "KernelSU" uygulamasındaki "Süper Kullanıcı" sekmesinden QPST Tool için ROOT izni verin.
+"Magisk", "KernelSU" veya "APatch" uygulamasındaki "Süper Kullanıcı" sekmesinden QPST Tool için ROOT izni verin.
 
-Eğer Magisk veya KernelSU uygulaması yüklü değilse ve yüklediğinizde hata mesajı ile karşılaşıyorsanız, muhtemelen cihazınızda ROOT bulunmamaktadır. ROOT yetkisi olmadan bu uygulamayı kullanamazsınız.</Str>
+Eğer bu uygulamalardan herhangi biri yüklü değilse ve yüklediğinizde hata mesajı ile karşılaşıyorsanız, muhtemelen cihazınızda ROOT bulunmamaktadır. ROOT yetkisi olmadan bu uygulamayı kullanamazsınız.</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -3262,7 +3302,7 @@ Eğer Magisk veya KernelSU uygulaması yüklü değilse ve yüklediğinizde hata
 	</Task>
 	<Task sr="task39">
 		<cdate>1682134830260</cdate>
-		<edate>1692520033386</edate>
+		<edate>1705783687659</edate>
 		<id>39</id>
 		<nme>Check Update</nme>
 		<pri>100</pri>
@@ -3644,7 +3684,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task43">
 		<cdate>1682623647237</cdate>
-		<edate>1683382161520</edate>
+		<edate>1705787299864</edate>
 		<id>43</id>
 		<nme>Confirm Dialog</nme>
 		<Action sr="act0" ve="7">
@@ -3665,28 +3705,44 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task44">
 		<cdate>1682136629305</cdate>
-		<edate>1692512517437</edate>
+		<edate>1705788176005</edate>
 		<id>44</id>
 		<nme>Reboot</nme>
 		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Clear Variables</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
+			<code>59</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%confirmProcess</lhs>
+					<op>2</op>
+					<rhs>reboot</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>59</code>
-			<Int sr="arg0" val="0"/>
+			<se>false</se>
+			<Int sr="arg0" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%confirmProcess</lhs>
+					<op>2</op>
+					<rhs>rebootrecovery</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>59</code>
+			<se>false</se>
+			<Int sr="arg0" val="2"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%confirmProcess</lhs>
+					<op>2</op>
+					<rhs>rebootfastboot</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task45">
@@ -3808,7 +3864,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task50">
 		<cdate>1682621079722</cdate>
-		<edate>1684328875896</edate>
+		<edate>1705788152209</edate>
 		<id>50</id>
 		<nme>Confirm</nme>
 		<Action sr="act0" ve="7">
@@ -3919,6 +3975,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
+			<se>false</se>
 			<Str sr="arg0" ve="3">Enable QPST Mode</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -3942,6 +3999,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
+			<se>false</se>
 			<Str sr="arg0" ve="3">Erase EFS</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -3965,6 +4023,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
+			<se>false</se>
 			<Str sr="arg0" ve="3">Backup EFS</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -3988,6 +4047,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
+			<se>false</se>
 			<Str sr="arg0" ve="3">Enable ADB</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -4011,6 +4071,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
+			<se>false</se>
 			<Str sr="arg0" ve="3">Reboot</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -4025,10 +4086,22 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%confirmProcess</lhs>
 					<op>2</op>
 					<rhs>reboot</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%confirmProcess</lhs>
+					<op>2</op>
+					<rhs>rebootrecovery</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%confirmProcess</lhs>
+					<op>2</op>
+					<rhs>rebootfastboot</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -4148,7 +4221,7 @@ Bu şartları kabul etmiyorsanız lütfen uygulamayı derhal kaldırın!</Str>
 	</Task>
 	<Task sr="task53">
 		<cdate>1682362841044</cdate>
-		<edate>1692512376509</edate>
+		<edate>1705783704207</edate>
 		<id>53</id>
 		<nme>Install Update</nme>
 		<pri>100</pri>
@@ -4464,7 +4537,7 @@ Uygulama kullandığı izinlerin hepsine ihtiyaç duymaktadır. İzin ayarların
 	</Task>
 	<Task sr="task6">
 		<cdate>1683086684389</cdate>
-		<edate>1692517566370</edate>
+		<edate>1705783720638</edate>
 		<id>6</id>
 		<nme>Clear Variables</nme>
 		<Action sr="act0" ve="7">
@@ -4576,7 +4649,7 @@ Bu menüden gerçekleştirilecek işlemler cihazınızı kullanılmaz hale getir
 	</Task>
 	<Task sr="task62">
 		<cdate>1682609745800</cdate>
-		<edate>1692512430609</edate>
+		<edate>1705783709966</edate>
 		<id>62</id>
 		<nme>Manual Update</nme>
 		<Action sr="act0" ve="7">
@@ -4737,7 +4810,7 @@ Github'taki son versiyon: %appUpdateLongVersion
 	</Task>
 	<Task sr="task63">
 		<cdate>1682710052027</cdate>
-		<edate>1684328930168</edate>
+		<edate>1705783716525</edate>
 		<id>63</id>
 		<nme>Variables</nme>
 		<Action sr="act0" ve="7">
@@ -4824,7 +4897,7 @@ Github'taki son versiyon: %appUpdateLongVersion
 	</Task>
 	<Task sr="task67">
 		<cdate>1692512558866</cdate>
-		<edate>1692520067798</edate>
+		<edate>1705788577874</edate>
 		<id>67</id>
 		<nme>Remote</nme>
 		<pri>100</pri>
@@ -4952,6 +5025,154 @@ Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.a
 			<code>38</code>
 		</Action>
 	</Task>
+	<Task sr="task68">
+		<cdate>1705783344152</cdate>
+		<edate>1705787007489</edate>
+		<id>68</id>
+		<nme>Flash Recovery</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">Download/recovery.img</Str>
+			<Str sr="arg2" ve="3">%isRecovery</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isRecovery</lhs>
+					<op>12</op>
+					<rhs>recovery.img</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Download/recovery.img</Str>
+			<Str sr="arg2" ve="3">%recoveryPath</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%debugText</Str>
+			<Str sr="arg1" ve="3">%recoveryPath/recovery.img başarılı bir şekilde yüklendi</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">dd if=%recoveryPath/recovery.img of=/dev/block/bootdevice/by-name/recovery</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%debugText</Str>
+			<Str sr="arg1" ve="3">recovery.img mevcut değil</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task69">
+		<cdate>1705783361907</cdate>
+		<edate>1705787022622</edate>
+		<id>69</id>
+		<nme>Flash Kernel</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3">Download/boot.img</Str>
+			<Str sr="arg2" ve="3">%isBoot</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isBoot</lhs>
+					<op>12</op>
+					<rhs>boot.img</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>342</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Download/boot.img</Str>
+			<Str sr="arg2" ve="3">%bootPath</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%debugText</Str>
+			<Str sr="arg1" ve="3">%recoveryPath/boot.img başarılı bir şekilde yüklendi</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">dd if=%bootPath/boot.img of=/dev/block/bootdevice/by-name/boot</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%debugText</Str>
+			<Str sr="arg1" ve="3">downloads/boot.img mevcut değil</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
 	<Task sr="task7">
 		<cdate>1683129388114</cdate>
 		<edate>1683129388114</edate>
@@ -4972,6 +5193,136 @@ Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.a
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task70">
+		<cdate>1705783568329</cdate>
+		<edate>1705783568329</edate>
+		<id>70</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Flash Recovery</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task71">
+		<cdate>1705783601151</cdate>
+		<edate>1705783601151</edate>
+		<id>71</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Flash Kernel</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task75">
+		<cdate>1682175099077</cdate>
+		<edate>1682175099077</edate>
+		<id>75</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmProcess</Str>
+			<Str sr="arg1" ve="3">rebootrecovery</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%confirmText</Str>
+			<Str sr="arg1" ve="3">Cihazı recovery modunda başlatmak istediğinizden emin misiniz?</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Confirm Dialog</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task76">
+		<cdate>1682175099077</cdate>
+		<edate>1682175099077</edate>
+		<id>76</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%confirmProcess</Str>
+			<Str sr="arg1" ve="3">rebootfastboot</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%confirmText</Str>
+			<Str sr="arg1" ve="3">Cihazı fastboot modunda başlatmak istediğinizden emin misiniz?</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Confirm Dialog</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task8">
