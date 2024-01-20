@@ -28,9 +28,10 @@ Qualcomm Snapdragon cihazlar için şebeke sorunlarının çözümü için gerek
 ## Özellikleri:  
 - QPST (QUALCOMM DIAG) modunu ve ADB ile geliştirici seçeneklerini tek tuşla aktifleştirme    
 - Bozuk EFS bölümlerini tek tuşla yedekleme ve silme   
-- Tek tuşla cihazı yeniden başlatma
+- Tek tuşla cihazı normal, recovery veya fastboot modunda yeniden başlatma
 - Tamamen ücretsiz, reklamsız, sade ve hafif bir uygulama
 - Otomatik güncelleme özelliği (İndirme ve yüklemeyi manuel yapmanız gerekmektedir.)
+- Deneysel kernel ve recovery flaşlama
 
 ## Notlar:    
 - ! Kullanımdan kaynaklı bütün risk size aittir. Ne işe yaradığını ve ne yaptığını bilmiyorsanız lütfen kullanmayın !  
