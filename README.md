@@ -1,4 +1,8 @@
-# ROOT'lu Qualcomm Snapdragon cihazlar için QPST Tool  
+# QPST TOOL yenilendi be artık [BAKİMZİ](https://github.com/symbuzzer/bakimzi) ismiyle yayında!
+
+
+
+## ROOT'lu Qualcomm Snapdragon cihazlar için QPST Tool  
 Qualcomm Snapdragon cihazlar için şebeke sorunlarının çözümü için gerekli kısa yolları içerir ücretsiz, reklamsız ve açık kaynak Android uygulaması...  
 
 ## Desteklenen cihazlar:  
